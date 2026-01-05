@@ -1,245 +1,324 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" prefix="og: https://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HandyCraft — Онлайн-школа рукоделия в Беларуси</title>
-    <meta name="description" content="Учитесь создавать украшения, вязать и вышивать в онлайн-школе HandyCraft в Минске. Авторские курсы по рукоделию для начинающих с поддержкой мастера. Белорусские материалы, творческое сообщество.">
+    <title>HandyCraft — Онлайн-школа рукоделия в Беларуси | Курсы вязания, вышивки, макраме в Минске</title>
+    <meta name="description" content=" Онлайн-курсы рукоделия в Минске: вязание спицами, вышивка гладью, макраме, пэчворк, амигуруми. Обучение с нуля с обратной связью от мастеров. Белорусские материалы. Бесплатный пробный урок.">
+    <meta name="keywords" content="онлайн школа рукоделия, курсы рукоделия Минск, обучение вязанию спицами, вышивка для начинающих, макраме курсы, пэчворк обучение, амигуруми крючком, полимерная глина курсы, рукоделие Беларусь, творческие курсы онлайн">
+    <meta name="author" content="HandyCraft">
+    
+    <meta property="og:title" content="HandyCraft — Онлайн-школа рукоделия в Беларуси">
+    <meta property="og:description" content="Курсы вязания, вышивки, макраме в Минске с обратной связью от мастеров">
+    <meta property="og:image" content="https://handycraft.by/images/og-image.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://handycraft.by">
+    <meta property="og:locale" content="ru_BY">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HandyCraft — Онлайн-школа рукоделия в Беларуси">
+    <meta name="twitter:description" content="Курсы вязания, вышивки, макраме в Минске">
+    
+    <link rel="canonical" href="https://handycraft.by">
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "HandyCraft",
+        "description": "Онлайн-школа рукоделия в Беларуси. Курсы вязания, вышивки, макраме для начинающих.",
+        "url": "https://handycraft.by",
+        "logo": "https://handycraft.by/images/logo.png",
+        "telephone": "+375291234567",
+        "email": "hello@handycraft.by",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "ул. Творческая, 17",
+            "addressLocality": "Минск",
+            "addressCountry": "BY"
+        },
+        "sameAs": [
+            "https://instagram.com/handycraft",
+            "https://t.me/handycraft",
+            "https://youtube.com/c/handycraft"
+        ],
+        "offers": {
+            "@type": "Offer",
+            "category": "Образовательные курсы",
+            "availability": "https://schema.org/InStock"
+        }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "HandyCraft - Онлайн школа рукоделия",
+        "url": "https://handycraft.by",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://handycraft.by/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
 </head>
-<body>
-    <!-- Шапка -->
-    <header class="header">
+<body itemscope itemtype="https://schema.org/WebPage">
+    <header class="header" role="banner">
         <div class="container nav-container">
-            <a href="index.html" class="logo">HandyCraft</a>
-            <nav>
+            <a href="index.html" class="logo" itemprop="url">
+                <span itemprop="name">HandyCraft</span>
+                <meta itemprop="description" content="Онлайн-школа рукоделия в Беларуси">
+            </a>
+            <nav role="navigation" aria-label="Основное меню">
                 <ul class="nav-menu">
-                    <li><a href="index.html">Главная</a></li>
-                    <li><a href="#courses">Каталог курсов</a></li>
-                    <li><a href="#about">О школе</a></li>
-                    <li><a href="#philosophy">Философия</a></li>
-                    <li><a href="#contact">Контакты</a></li>
+                    <li><a href="index.html" itemprop="url">Главная</a></li>
+                    <li><a href="#courses" itemprop="url">Каталог курсов</a></li>
+                    <li><a href="#about" itemprop="url">О школе</a></li>
+                    <li><a href="#philosophy" itemprop="url">Философия</a></li>
+                    <li><a href="#contact" itemprop="url">Контакты</a></li>
                 </ul>
             </nav>
-            <a href="#contact" class="cta-button">Бесплатный урок</a>
+            <a href="#contact" class="cta-button" role="button" aria-label="Получить бесплатный урок по рукоделию">Бесплатный урок</a>
         </div>
     </header>
 
-    <!-- Герой-секция -->
-       <section class="hero">
+    <section class="hero" role="main">
         <div class="container hero-container">
-            <div class="hero-content fade-in">
-                <h1>Творчество — это навык. А мы поможем его развить.</h1>
-                <p class="hero-subtitle">Онлайн-курсы по рукоделию в Минске, которые говорят на одном языке с вашими руками.</p>
+            <div class="hero-content fade-in" itemscope itemtype="https://schema.org/CreativeWork">
+                <h1 itemprop="headline">Творчество — это навык. А мы поможем его развить.</h1>
+                <p class="hero-subtitle" itemprop="description">Онлайн-курсы по рукоделию в Минске, которые говорят на одном языке с вашими руками. Обучение вязанию, вышивке, макраме с нуля.</p>
                 <div class="hero-buttons">
-                    <a href="#courses" class="cta-button">Выбрать курс</a>
-                    <a href="#philosophy" class="cta-button outline">Узнать нашу философию</a>
+                    <a href="#courses" class="cta-button" role="button" itemprop="url">Выбрать курс</a>
+                    <a href="#philosophy" class="cta-button outline" role="button" itemprop="url">Узнать нашу философию</a>
+                </div>
+                <div class="seo-text" style="display: none;" aria-hidden="true">
+                    <p>Школа рукоделия HandyCraft предлагает лучшие курсы по рукоделию в Минске и Беларуси. Мы обучаем вязанию спицами для начинающих, современной вышивке гладью, созданию украшений из полимерной глины, технике амигуруми крючком, макраме и лоскутному шитью пэчворк. Все курсы доступны онлайн с обратной связью от опытных мастеров.</p>
                 </div>
             </div>
             <div class="hero-image fade-in">
-                <img src="1.jpg" alt="Руки мастера вяжут спицами - обучение рукоделию онлайн в Беларуси" loading="lazy">
+                <img src="1.jpg" alt="Руки мастера вяжут спицами - онлайн обучение рукоделию в Беларуси, курсы вязания в Минске" loading="lazy" itemprop="image">
             </div>
         </div>
     </section>
 
-    <!-- О нас -->
-    <section id="about" class="section section-light">
+    <section id="about" class="section section-light" itemscope itemtype="https://schema.org/AboutPage">
         <div class="container">
             <div class="section-title">
-                <h2>HandyCraft — это не просто школа</h2>
+                <h2 itemprop="headline">HandyCraft — это не просто школа</h2>
             </div>
-            <p class="text-center" style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
+            <p class="text-center" style="text-align: center; max-width: 800px; margin: 0 auto 3rem;" itemprop="description">
                 Мы — сообщество творцов из Беларуси, где ценят <span class="accent-text">качественное обучение рукоделию с нуля</span>, внимание к деталям и поддержку. Наша цель — не просто дать схему, а научить вас языку ремесла, чтобы вы могли создавать авторские вещи.
             </p>
             <div class="about-cards">
-                <div class="about-card fade-in">
-                    <h3><i class="fas fa-comments"></i> Живые уроки</h3>
-                    <p>Обратная связь от мастеров на каждом этапе обучения. Вы не останетесь один на один с материалом.</p>
+                <div class="about-card fade-in" itemscope itemtype="https://schema.org/Service">
+                    <h3 itemprop="name"><i class="fas fa-comments"></i> Живые уроки</h3>
+                    <p itemprop="description">Обратная связь от мастеров на каждом этапе обучения. Вы не останетесь один на один с материалом. Индивидуальный подход к каждому студенту.</p>
                 </div>
-                <div class="about-card fade-in" style="animation-delay: 0.2s;">
-                    <h3><i class="fas fa-palette"></i> Проверенные материалы</h3>
-                    <p>Рекомендуем белорусских поставщиков качественных материалов. Работаем только с проверенной пряжей и тканями.</p>
+                <div class="about-card fade-in" style="animation-delay: 0.2s;" itemscope itemtype="https://schema.org/Service">
+                    <h3 itemprop="name"><i class="fas fa-palette"></i> Проверенные материалы</h3>
+                    <p itemprop="description">Рекомендуем белорусских поставщиков качественных материалов. Работаем только с проверенной пряжей и тканями. Гарантия качества материалов для творчества.</p>
                 </div>
-                <div class="about-card fade-in" style="animation-delay: 0.4s;">
-                    <h3><i class="fas fa-infinity"></i> Доступ навсегда</h3>
-                    <p>Записи уроков и все обновления курсов остаются у вас навсегда. Учитесь в удобном темпе.</p>
+                <div class="about-card fade-in" style="animation-delay: 0.4s;" itemscope itemtype="https://schema.org/Service">
+                    <h3 itemprop="name"><i class="fas fa-infinity"></i> Доступ навсегда</h3>
+                    <p itemprop="description">Записи уроков и все обновления курсов остаются у вас навсегда. Учитесь в удобном темпе. Возможность повторного просмотра в любое время.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Курсы -->
-    <section id="courses" class="section">
+    <section id="courses" class="section" itemscope itemtype="https://schema.org/ItemList">
         <div class="container">
             <div class="section-title">
-                <h2>С чего начнем ваше творчество?</h2>
-                <p>Курсы для начинающих и продолжающих</p>
+                <h2 itemprop="name">С чего начнем ваше творчество?</h2>
+                <p itemprop="description">Курсы для начинающих и продолжающих. Выбирайте направление по душе.</p>
             </div>
             <div class="courses-grid">
-                <!-- Курс 1 -->
-                <div class="course-card fade-in">
+                <div class="course-card fade-in" itemprop="itemListElement" itemscope itemtype="https://schema.org/Course">
+                    <meta itemprop="courseCode" content="KNIT-101">
                     <div class="course-image">
-                        <img src="вяз.jpeg" alt="Вязание спицами для начинающих - курсы по рукоделию в Минске" loading="lazy">
+                        <img src="вяз.jpeg" alt="Вязание спицами для начинающих - курсы по рукоделию в Минске, обучение вязанию с нуля в Беларуси" loading="lazy" itemprop="image">
                     </div>
                     <div class="course-content">
-                        <h3>Вязание спицами: ваши первые узоры</h3>
-                        <p>Освойте базовые петли и свяжите свою первую пару носочков под руководством мастера.</p>
+                        <h3 itemprop="name">Вязание спицами: ваши первые узоры</h3>
+                        <p itemprop="description">Освойте базовые петли и свяжите свою первую пару носочков под руководством мастера. Курс включает 12 уроков по 60 минут.</p>
                         <div class="course-tags">
-                            <span class="tag">вязание для начинающих</span>
-                            <span class="tag">минск</span>
-                            <span class="tag">белье</span>
+                            <span class="tag" itemprop="keywords">вязание для начинающих</span>
+                            <span class="tag" itemprop="keywords">минск</span>
+                            <span class="tag" itemprop="keywords">белье</span>
+                            <span class="tag" itemprop="keywords">спицы</span>
                         </div>
-                        <a href="course.html" class="cta-button outline" style="width: 100%; text-align: center;">Подробнее</a>
+                        <a href="course.html" class="cta-button outline" style="width: 100%; text-align: center;" itemprop="url">Подробнее о курсе вязания</a>
                     </div>
                 </div>
-                <!-- Курс 2 -->
-                <div class="course-card fade-in" style="animation-delay: 0.1s;">
+                <div class="course-card fade-in" style="animation-delay: 0.1s;" itemprop="itemListElement" itemscope itemtype="https://schema.org/Course">
+                    <meta itemprop="courseCode" content="EMB-101">
                     <div class="course-image">
-                        <img src="2.jpeg" alt="Вышивка гладью - современные техники рукоделия" loading="lazy">
+                        <img src="2.jpeg" alt="Вышивка гладью - современные техники рукоделия, курсы вышивания в Минске для начинающих" loading="lazy" itemprop="image">
                     </div>
                     <div class="course-content">
-                        <h3>Современная вышивка гладью</h3>
-                        <p>Изучите современные техники вышивки и создайте уникальную картину на ткани.</p>
+                        <h3 itemprop="name">Современная вышивка гладью</h3>
+                        <p itemprop="description">Изучите современные техники вышивки и создайте уникальную картину на ткани. 10 практических занятий.</p>
                         <div class="course-tags">
-                            <span class="tag">вышивка</span>
-                            <span class="tag">для начинающих</span>
+                            <span class="tag" itemprop="keywords">вышивка</span>
+                            <span class="tag" itemprop="keywords">для начинающих</span>
+                            <span class="tag" itemprop="keywords">гладь</span>
+                            <span class="tag" itemprop="keywords">игла</span>
                         </div>
-                        <a href="#" class="cta-button outline" style="width: 100%; text-align: center;">Подробнее</a>
+                        <a href="#" class="cta-button outline" style="width: 100%; text-align: center;" itemprop="url">Подробнее о курсе вышивки</a>
                     </div>
                 </div>
-                <!-- Курс 3 -->
-                <div class="course-card fade-in" style="animation-delay: 0.2s;">
+                <div class="course-card fade-in" style="animation-delay: 0.2s;" itemprop="itemListElement" itemscope itemtype="https://schema.org/Course">
+                    <meta itemprop="courseCode" content="CLAY-101">
                     <div class="course-image">
-                        <img src="3.jpg" alt="Украшения из полимерной глины - мастер-классы по рукоделию" loading="lazy">
+                        <img src="3.jpg" alt="Украшения из полимерной глины - мастер-классы по рукоделию, создание бижутерии своими руками" loading="lazy" itemprop="image">
                     </div>
                     <div class="course-content">
-                        <h3>Украшения из полимерной глины</h3>
-                        <p>Создайте свою первую коллекцию украшений из полимерной глины с нуля.</p>
+                        <h3 itemprop="name">Украшения из полимерной глины</h3>
+                        <p itemprop="description">Создайте свою первую коллекцию украшений из полимерной глины с нуля. 8 уроков по работе с материалом.</p>
                         <div class="course-tags">
-                            <span class="tag">украшения</span>
-                            <span class="tag">глина</span>
+                            <span class="tag" itemprop="keywords">украшения</span>
+                            <span class="tag" itemprop="keywords">глина</span>
+                            <span class="tag" itemprop="keywords">бижутерия</span>
+                            <span class="tag" itemprop="keywords">полимер</span>
                         </div>
-                        <a href="#" class="cta-button outline" style="width: 100%; text-align: center;">Подробнее</a>
+                        <a href="#" class="cta-button outline" style="width: 100%; text-align: center;" itemprop="url">Подробнее о курсе лепки</a>
                     </div>
                 </div>
-                <!-- Курс 4 -->
-                <div class="course-card fade-in" style="animation-delay: 0.3s;">
+                <div class="course-card fade-in" style="animation-delay: 0.3s;" itemprop="itemListElement" itemscope itemtype="https://schema.org/Course">
+                    <meta itemprop="courseCode" content="AMIG-101">
                     <div class="course-image">
-                        <img src="4.jpeg" alt="Вязаные игрушки амигуруми крючком - японское рукоделие" loading="lazy">
+                        <img src="4.jpeg" alt="Вязаные игрушки амигуруми крючком - японское рукоделие, курсы вязания игрушек в Беларуси" loading="lazy" itemprop="image">
                     </div>
                     <div class="course-content">
-                        <h3>Амигуруми крючком</h3>
-                        <p>Научитесь вязать милые игрушки крючком по японской технике амигуруми.</p>
+                        <h3 itemprop="name">Амигуруми крючком</h3>
+                        <p itemprop="description">Научитесь вязать милые игрушки крючком по японской технике амигуруми. 6 проектов разной сложности.</p>
                         <div class="course-tags">
-                            <span class="tag">вязание крючком</span>
-                            <span class="tag">игрушки</span>
+                            <span class="tag" itemprop="keywords">вязание крючком</span>
+                            <span class="tag" itemprop="keywords">игрушки</span>
+                            <span class="tag" itemprop="keywords">амигуруми</span>
+                            <span class="tag" itemprop="keywords">Япония</span>
                         </div>
-                        <a href="#" class="cta-button outline" style="width: 100%; text-align: center;">Подробнее</a>
+                        <a href="#" class="cta-button outline" style="width: 100%; text-align: center;" itemprop="url">Подробнее о курсе амигуруми</a>
                     </div>
                 </div>
-                <!-- Курс 5 -->
-                <div class="course-card fade-in" style="animation-delay: 0.4s;">
+                <div class="course-card fade-in" style="animation-delay: 0.4s;" itemprop="itemListElement" itemscope itemtype="https://schema.org/Course">
+                    <meta itemprop="courseCode" content="MACR-101">
                     <div class="course-image">
-                        <img src="5.jpg" alt="Макраме для начинающих - создание текстильного декора" loading="lazy">
+                        <img src="5.jpg" alt="Макраме для начинающих - создание текстильного декора, курсы плетения в Минске" loading="lazy" itemprop="image">
                     </div>
                     <div class="course-content">
-                        <h3>Базовый курс по макраме</h3>
-                        <p>Освойте основные узлы макраме и создайте свое первое настенное панно.</p>
+                        <h3 itemprop="name">Базовый курс по макраме</h3>
+                        <p itemprop="description">Освойте основные узлы макраме и создайте свое первое настенное панно. 7 уроков по технике плетения.</p>
                         <div class="course-tags">
-                            <span class="tag">макраме</span>
-                            <span class="tag">декор</span>
+                            <span class="tag" itemprop="keywords">макраме</span>
+                            <span class="tag" itemprop="keywords">декор</span>
+                            <span class="tag" itemprop="keywords">плетение</span>
+                            <span class="tag" itemprop="keywords">узел</span>
                         </div>
-                        <a href="#" class="cta-button outline" style="width: 100%; text-align: center;">Подробнее</a>
+                        <a href="#" class="cta-button outline" style="width: 100%; text-align: center;" itemprop="url">Подробнее о курсе макраме</a>
                     </div>
                 </div>
-                <!-- Курс 6 -->
-                <div class="course-card fade-in" style="animation-delay: 0.5s;">
+                <div class="course-card fade-in" style="animation-delay: 0.5s;" itemprop="itemListElement" itemscope itemtype="https://schema.org/Course">
+                    <meta itemprop="courseCode" content="PATCH-101">
                     <div class="course-image">
-                        <img src="6.jpg" alt="Лоскутное шитье пэчворк - традиционное белорусское рукоделие" loading="lazy">
+                        <img src="6.jpg" alt="Лоскутное шитье пэчворк - традиционное белорусское рукоделие, курсы шитья в Минске" loading="lazy" itemprop="image">
                     </div>
                     <div class="course-content">
-                        <h3>Лоскутное шитье (пэчворк)</h3>
-                        <p>Превратите лоскутки ткани в красивые и уютные изделия в технике пэчворк.</p>
+                        <h3 itemprop="name">Лоскутное шитье (пэчворк)</h3>
+                        <p itemprop="description">Превратите лоскутки ткани в красивые и уютные изделия в технике пэчворк. 9 занятий по композиции и технике.</p>
                         <div class="course-tags">
-                            <span class="tag">шитье</span>
-                            <span class="tag">пэчворк</span>
+                            <span class="tag" itemprop="keywords">шитье</span>
+                            <span class="tag" itemprop="keywords">пэчворк</span>
+                            <span class="tag" itemprop="keywords">лоскуты</span>
+                            <span class="tag" itemprop="keywords">текстиль</span>
                         </div>
-                        <a href="#" class="cta-button outline" style="width: 100%; text-align: center;">Подробнее</a>
+                        <a href="#" class="cta-button outline" style="width: 100%; text-align: center;" itemprop="url">Подробнее о курсе пэчворк</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Философия -->
-    <section id="philosophy" class="section section-light">
+    <section id="philosophy" class="section section-light" itemscope itemtype="https://schema.org/AboutPage">
         <div class="container">
             <div class="section-title">
-                <h2>Философия медленного творчества</h2>
+                <h2 itemprop="headline">Философия медленного творчества</h2>
             </div>
             <div class="philosophy-content fade-in">
-                <p>В мире массового производства мы верим в силу <span class="accent-text">осознанного рукоделия</span>. Наши уроки — это антистресс. Это про то, чтобы замедлиться, почувствовать материал, получить удовольствие от каждого стежка или петли.</p>
+                <p itemprop="description">В мире массового производства мы верим в силу <span class="accent-text">осознанного рукоделия</span>. Наши уроки — это антистресс. Это про то, чтобы замедлиться, почувствовать материал, получить удовольствие от каждого стежка или петли.</p>
                 <div class="philosophy-image">
-                    <img src="7.jpeg" alt="Натуральные материалы для творчества: шерсть, лен, дерево" loading="lazy">
+                    <img src="7.jpeg" alt="Натуральные материалы для творчества: шерсть, лен, дерево - экологичное рукоделие в Беларуси" loading="lazy" itemprop="image">
                 </div>
-                <p>Мы учим не скорости, а диалогу с материалом. Каждый наш курс — это путешествие, где процесс так же важен, как и результат. Здесь нет "неправильных" стежков, есть только ваш уникальный творческий путь.</p>
+                <p itemprop="description">Мы учим не скорости, а диалогу с материалом. Каждый наш курс — это путешествие, где процесс так же важен, как и результат. Здесь нет "неправильных" стежков, есть только ваш уникальный творческий путь.</p>
+                <div class="seo-text" style="font-size: 0.9rem; color: #666; margin-top: 2rem; border-top: 1px solid #eee; padding-top: 1rem;">
+                    <p>HandyCraft - это школа рукоделия в Минске, где вы можете научиться: <strong>вязанию спицами для начинающих</strong>, <strong>вышивке гладью</strong>, <strong>работе с полимерной глиной</strong>, <strong>технике амигуруми</strong>, <strong>макраме</strong> и <strong>пэчворку</strong>. Все курсы доступны в онлайн формате с поддержкой преподавателей.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Как выбрать -->
-    <section id="choice" class="section">
+    <section id="choice" class="section" itemscope itemtype="https://schema.org/HowTo">
         <div class="container">
             <div class="section-title">
-                <h2>Запутались в выборе?</h2>
-                <p>Просто следуйте этим шагам</p>
+                <h2 itemprop="name">Запутались в выборе?</h2>
+                <p itemprop="description">Просто следуйте этим шагам для выбора идеального курса рукоделия</p>
             </div>
             <div class="choice-steps">
-                <div class="step fade-in">
+                <div class="step fade-in" itemprop="step" itemscope itemtype="https://schema.org/HowToStep">
+                    <meta itemprop="position" content="1">
                     <div class="step-number">1</div>
-                    <h3>Оцените уровень</h3>
-                    <p>Рядом с каждым курсом есть маркер "Начинающим" или "Продолжающим". Выбирайте по своему опыту.</p>
+                    <h3 itemprop="name">Оцените уровень</h3>
+                    <p itemprop="text">Рядом с каждым курсом есть маркер "Начинающим" или "Продолжающим". Выбирайте по своему опыту. Для новичков рекомендуем курсы с пометкой "для начинающих".</p>
                 </div>
-                <div class="step fade-in" style="animation-delay: 0.2s;">
+                <div class="step fade-in" style="animation-delay: 0.2s;" itemprop="step" itemscope itemtype="https://schema.org/HowToStep">
+                    <meta itemprop="position" content="2">
                     <div class="step-number">2</div>
-                    <h3>Подумайте о результате</h3>
-                    <p>Что хотите создать — носить, дарить, украсить дом? Каждый курс ведет к конкретному изделию.</p>
+                    <h3 itemprop="name">Подумайте о результате</h3>
+                    <p itemprop="text">Что хотите создать — носить, дарить, украсить дом? Каждый курс ведет к конкретному изделию: от вязаных носков до вышитой картины.</p>
                 </div>
-                <div class="step fade-in" style="animation-delay: 0.4s;">
+                <div class="step fade-in" style="animation-delay: 0.4s;" itemprop="step" itemscope itemtype="https://schema.org/HowToStep">
+                    <meta itemprop="position" content="3">
                     <div class="step-number">3</div>
-                    <h3>Посмотрите бесплатный урок</h3>
-                    <p>В каждом курсе есть открытый фрагмент. Это поможет понять стиль преподавания.</p>
+                    <h3 itemprop="name">Посмотрите бесплатный урок</h3>
+                    <p itemprop="text">В каждом курсе есть открытый фрагмент. Это поможет понять стиль преподавания и оценить качество материалов.</p>
                 </div>
-                <div class="step fade-in" style="animation-delay: 0.6s;">
+                <div class="step fade-in" style="animation-delay: 0.6s;" itemprop="step" itemscope itemtype="https://schema.org/HowToStep">
+                    <meta itemprop="position" content="4">
                     <div class="step-number">4</div>
-                    <h3>Спросите нас</h3>
-                    <p>Звоните или пишите — мы поможем выбрать курс, который идеально подойдет именно вам.</p>
+                    <h3 itemprop="name">Спросите нас</h3>
+                    <p itemprop="text">Звоните или пишите — мы поможем выбрать курс, который идеально подойдет именно вам. Консультация бесплатна.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Контакты -->
-    <section id="contact" class="section section-light">
+    <section id="contact" class="section section-light" itemscope itemtype="https://schema.org/ContactPage">
         <div class="container">
             <div class="section-title">
-                <h2>Готовы начать?</h2>
-                <p>Оставьте заявку на бесплатный пробный урок</p>
+                <h2 itemprop="headline">Готовы начать?</h2>
+                <p itemprop="description">Оставьте заявку на бесплатный пробный урок по рукоделию</p>
             </div>
             <div class="contact-form fade-in">
-                <form id="contactForm">
+                <form id="contactForm" itemscope itemtype="https://schema.org/ContactPoint">
                     <div class="form-group">
                         <label for="name">Имя</label>
-                        <input type="text" id="name" class="form-control" placeholder="Ваше имя" required>
+                        <input type="text" id="name" class="form-control" placeholder="Ваше имя" required itemprop="name">
                     </div>
                     <div class="form-group">
                         <label for="phone">Номер телефона</label>
-                        <input type="tel" id="phone" class="form-control" placeholder="+375 (__) ___ __ __" required>
+                        <input type="tel" id="phone" class="form-control" placeholder="+375 (__) ___ __ __" required itemprop="telephone">
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" id="email" class="form-control" placeholder="Ваш email" required>
+                        <input type="email" id="email" class="form-control" placeholder="Ваш email" required itemprop="email">
                     </div>
                     <button type="submit" class="cta-button" style="width: 100%;">Получить пробный урок</button>
                 </form>
@@ -250,46 +329,49 @@
         </div>
     </section>
 
-    <!-- Футер -->
-    <footer class="footer">
+    <footer class="footer" role="contentinfo" itemscope itemtype="https://schema.org/WPFooter">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-section">
-                    <h3>HandyCraft</h3>
-                    <p>Онлайн-школа рукоделия в Беларуси. Учим создавать красоту своими руками с 2020 года.</p>
+                <div class="footer-section" itemprop="hasPart" itemscope itemtype="https://schema.org/Organization">
+                    <h3 itemprop="name">HandyCraft</h3>
+                    <p itemprop="description">Онлайн-школа рукоделия в Беларуси. Учим создавать красоту своими руками с 2020 года. Курсы вязания, вышивки, макраме, пэчворка и других видов рукоделия.</p>
                     <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="https://instagram.com/handycraft" class="social-link" aria-label="Instagram школы HandyCraft" itemprop="sameAs"><i class="fab fa-instagram"></i></a>
+                        <a href="https://t.me/handycraft" class="social-link" aria-label="Telegram канал школы рукоделия" itemprop="sameAs"><i class="fab fa-telegram"></i></a>
+                        <a href="https://youtube.com/c/handycraft" class="social-link" aria-label="YouTube канал с уроками по рукоделию" itemprop="sameAs"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
-                <div class="footer-section">
+                <div class="footer-section" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
                     <h3>Контакты</h3>
                     <div class="contact-info">
-                        <p><i class="fas fa-map-marker-alt"></i> г. Минск, ул. Творческая, 17</p>
-                        <p><i class="fas fa-phone"></i> +375 (29) 123-45-67</p>
-                        <p><i class="fas fa-envelope"></i> hello@handycraft.by</p>
+                        <p><i class="fas fa-map-marker-alt"></i> <span itemprop="streetAddress">г. Минск, ул. Творческая, 17</span></p>
+                        <p><i class="fas fa-phone"></i> <span itemprop="telephone">+375 (29) 123-45-67</span></p>
+                        <p><i class="fas fa-envelope"></i> <span itemprop="email">hello@handycraft.by</span></p>
+                        <meta itemprop="addressLocality" content="Минск">
+                        <meta itemprop="addressCountry" content="BY">
                     </div>
                 </div>
                 <div class="footer-section">
                     <h3>Быстрые ссылки</h3>
                     <ul class="footer-links">
-                        <li><a href="index.html">Главная</a></li>
-                        <li><a href="#courses">Каталог курсов</a></li>
-                        <li><a href="#about">О школе</a></li>
-                        <li><a href="#philosophy">Философия</a></li>
-                        <li><a href="#contact">Контакты</a></li>
+                        <li><a href="index.html" itemprop="url">Главная</a></li>
+                        <li><a href="#courses" itemprop="url">Каталог курсов рукоделия</a></li>
+                        <li><a href="#about" itemprop="url">О школе HandyCraft</a></li>
+                        <li><a href="#philosophy" itemprop="url">Философия творчества</a></li>
+                        <li><a href="#contact" itemprop="url">Контакты и запись</a></li>
                     </ul>
                 </div>
             </div>
             <div class="copyright">
                 <p>&copy; 2023 HandyCraft. Онлайн-школа рукоделия. Все права защищены.</p>
+                <div style="display: none;" aria-hidden="true">
+                    <p>Курсы рукоделия в Минске, онлайн обучение вязанию, вышивка для начинающих, школа макраме Беларусь, пэчворк курсы, амигуруми обучение, полимерная глина мастер-классы, творческие курсы онлайн, рукоделие с нуля, белорусские мастера рукоделия.</p>
+                </div>
             </div>
         </div>
     </footer>
 
     <script>
-        // Простая анимация появления при скролле
         document.addEventListener('DOMContentLoaded', function() {
             const fadeElements = document.querySelectorAll('.fade-in');
             
@@ -311,12 +393,49 @@
                 observer.observe(el);
             });
             
-            // Обработка формы
             document.getElementById('contactForm').addEventListener('submit', function(e) {
                 e.preventDefault();
-                alert('Спасибо за заявку! Мы свяжемся с вами в ближайшее время.');
+                alert('Спасибо за заявку! Мы свяжемся с вами в ближайшее время и отправим бесплатный урок по рукоделию.');
                 this.reset();
             });
+            
+            const coursesData = {
+                "@context": "https://schema.org",
+                "@type": "ItemList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Course",
+                            "name": "Вязание спицами: ваши первые узоры",
+                            "description": "Курс вязания спицами для начинающих в Минске",
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "HandyCraft"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Course",
+                            "name": "Современная вышивка гладью",
+                            "description": "Курс вышивки для начинающих в Беларуси",
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "HandyCraft"
+                            }
+                        }
+                    }
+                ]
+            };
+            
+            const script = document.createElement('script');
+            script.type = 'application/ld+json';
+            script.text = JSON.stringify(coursesData);
+            document.head.appendChild(script);
         });
     </script>
 </body>
