@@ -3,850 +3,606 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="RedBlack Fitness в Минске - современный спортивный зал с профессиональным оборудованием, опытными тренерами и индивидуальным подходом. Тренажерный зал, групповые занятия, функциональный тренинг в Минске.">
-    <meta name="keywords" content="фитнес клуб Минск, тренажерный зал Минск, спортзал Минск, групповые тренировки Минск, персональный тренер Минск, спортивное оборудование, фитнес, тренажеры, спорт, здоровье, тренировки">
-    <meta name="robots" content="index, follow">
-    <title>RedBlack Fitness | Современный спортивный зал в центре Минска</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>HandyCraft — Онлайн-школа рукоделия в Беларуси | Курсы вязания, вышивки, макраме в Минске</title>
+    <meta name="description" content="Онлайн-курсы рукоделия в Минске: вязание спицами, вышивка гладью, макраме, пэчворк, амигуруми. Обучение с нуля с обратной связью от мастеров. Белорусские материалы. Бесплатный пробный урок.">
+    <meta name="keywords" content="онлайн школа рукоделия, курсы рукоделия Минск, обучение вязанию спицами, вышивка для начинающих, макраме курсы, пэчворк обучение, амигуруми крючком, полимерная глина курсы, рукоделие Беларусь, творческие курсы онлайн">
+    <meta name="author" content="HandyCraft">
 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
     <script type="application/ld+json">
     {
     "@context": "https://schema.org",
     "@graph": [
         {
-        "@type": "SportsActivityLocation",
-        "@id": "https://redblackfitness.by/#gym",
-        "name": "RedBlack Fitness",
-        "url": "https://redblackfitness.by",
-        "logo": "https://redblackfitness.by/logo.png",
-        "image": "https://redblackfitness.by/preview.jpg",
+        "@type": "Organization",
+        "@id": "https://handycraft.by/#organization",
+        "name": "HandyCraft",
+        "url": "https://handycraft.by",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://handycraft.by/logo.png",
+            "width": "200",
+            "height": "60"
+        },
+        "description": "Онлайн-школа рукоделия в Беларуси. Курсы вязания, вышивки, макраме, пэчворка и других видов рукоделия.",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "пр-т Победителей, 21",
             "addressLocality": "Минск",
+            "streetAddress": "ул. Творческая, 17",
             "addressCountry": "BY"
         },
-        "telephone": "+375291234567",
-        "openingHours": "Mo-Su 06:00-00:00",
-        "priceRange": "BYN",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+375-29-123-45-67",
+            "contactType": "customer service",
+            "email": "hello@handycraft.by",
+            "availableLanguage": ["Russian", "Belarusian"]
+        },
         "sameAs": [
-            "https://instagram.com/redblackfitness",
-            "https://t.me/redblackfitness"
+            "https://instagram.com/handycraft",
+            "https://t.me/handycraft",
+            "https://vk.com/handycraft"
         ]
         },
         {
         "@type": "WebSite",
-        "@id": "https://redblackfitness.by/#website",
-        "url": "https://redblackfitness.by",
-        "name": "RedBlack Fitness — спортивный зал в Минске",
+        "@id": "https://handycraft.by/#website",
+        "url": "https://handycraft.by",
+        "name": "HandyCraft — Онлайн-школа рукоделия в Беларуси",
+        "description": "Онлайн-курсы рукоделия в Минске: вязание спицами, вышивка гладью, макраме, пэчворк, амигуруми. Обучение с нуля с обратной связью от мастеров.",
         "publisher": {
-            "@id": "https://redblackfitness.by/#gym"
+            "@id": "https://handycraft.by/#organization"
+        },
+        "inLanguage": "ru-RU"
+        },
+        {
+        "@type": "Course",
+        "name": "Вязание спицами: ваши первые узоры",
+        "description": "Освойте базовые петли и свяжите свою первую пару носочков под руководством мастера. Курс включает 12 уроков по 60 минут.",
+        "provider": {
+            "@id": "https://handycraft.by/#organization"
+        },
+        "courseCode": "HC-KNIT-001",
+        "hasCourseInstance": {
+            "@type": "CourseInstance",
+            "courseMode": ["online", "on demand"],
+            "courseWorkload": "PT12H"
+        },
+        "offers": {
+            "@type": "Offer",
+            "category": "OnlineCourse"
         }
+        },
+        {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Главная",
+            "item": "https://handycraft.by"
+            },
+            {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Каталог курсов",
+            "item": "https://handycraft.by/#courses"
+            },
+            {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Контакты",
+            "item": "https://handycraft.by/#contact"
+            }
+        ]
+        },
+        {
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+            "@type": "Question",
+            "name": "Подойдут ли курсы для полных новичков?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Да, большинство наших курсов предназначены для начинающих. В описании каждого курса указан требуемый уровень подготовки."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "Нужно ли покупать материалы заранее?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Мы рекомендуем приобретать материалы после первого урока, где преподаватель даст конкретные рекомендации. В описании курса есть список необходимых материалов."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "Как долго сохраняется доступ к курсу?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Доступ к записям уроков и всем материалам курса остается у вас навсегда без ограничений по времени."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "Есть ли обратная связь от преподавателя?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Да, на всех курсах предусмотрена обратная связь. Вы можете задавать вопросы в чате курса и получать развернутые ответы от мастера."
+            }
+            }
+        ]
         }
     ]
     }
     </script>
 
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="RedBlack Fitness Минск">
-    <meta property="og:title" content="RedBlack Fitness Минск | Современный спортивный зал в центре Минска">
-    <meta property="og:description" content="Тренажерный зал, групповые занятия, персональные тренировки с профессиональными тренерами в Минске. Первая тренировка бесплатно!">
-    <meta property="og:url" content="https://redblackfitness.by">
-    <meta property="og:image" content="https://redblackfitness.by/images/og-image.jpg">
+    <meta property="og:url" content="https://handycraft.by/">
+    <meta property="og:title" content="HandyCraft — Онлайн-школа рукоделия в Беларуси | Курсы вязания, вышивки, макраме в Минске">
+    <meta property="og:description" content="Онлайн-курсы рукоделия в Минске: вязание спицами, вышивка гладью, макраме, пэчворк, амигуруми. Обучение с нуля с обратной связью от мастеров. Белорусские материалы.">
+    <meta property="og:image" content="https://handycraft.by/1.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="RedBlack Fitness - современный спортивный зал в Минске">
     <meta property="og:locale" content="ru_RU">
-    <meta property="og:locale:alternate" content="be_BY">
-    <meta property="og:locale:alternate" content="en_US">
-
-    <meta property="og:telegram:channel" content="@redblackfitness_minsk">
-
-    <meta property="vk:image" content="https://redblackfitness.by/images/vk-image.jpg">
-
+    <meta property="og:site_name" content="HandyCraft">
+    
     <style>
+        :root {
+            --color-red-pastel: #FF7E79;
+            --color-red-pastel-dark: #D65F5A;
+            --color-beige: #F5F1E8;
+            --color-gray: #6C757D;
+            --color-light-gray: #F8F9FA;
+            --color-dark: #343A40;
+        }
+        
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        
-        :root {
-            --primary-red: #d00000;
-            --dark-red: #9d0208;
-            --light-red: #ff5a5a;
-            --primary-black: #222222;
-            --dark-gray: #333333;
-            --medium-gray: #555555;
-            --light-gray: #f8f8f8;
-            --lighter-gray: #f0f0f0;
-            --text-dark: #222222;
-            --text-gray: #666666;
-            --text-light: #ffffff;
         }
         
         body {
-            background-color: var(--lighter-gray);
-            color: var(--text-dark);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
+            color: var(--color-dark);
+            background-color: #fff;
         }
         
         .container {
+            width: 100%;
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
         
-        header {
-            background-color: rgba(255, 255, 255, 0.97);
-            position: fixed;
-            width: 100%;
-            z-index: 1000;
-            padding: 15px 0;
-            border-bottom: 3px solid var(--primary-red);
-            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+        /* Header */
+        .header {
+            background-color: white;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+            position: sticky;
+            top: 0;
+            z-index: 100;
         }
         
-        .header-container {
+        .nav-container {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding: 15px 20px;
         }
         
         .logo {
-            display: flex;
-            align-items: center;
-            gap: 12px;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--color-red-pastel-dark);
+            text-decoration: none;
         }
         
-        .logo h1 {
-            font-size: 28px;
-            font-weight: 800;
-            background: linear-gradient(to right, var(--primary-red), var(--light-red));
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        
-        .logo span {
-            color: var(--primary-black);
-        }
-        
-        .logo-icon {
-            color: var(--primary-red);
-            font-size: 32px;
-        }
-        
-        .logo-subtitle {
-            font-size: 12px;
-            color: var(--medium-gray);
-            margin-top: -5px;
-            font-weight: 600;
-            letter-spacing: 1px;
-        }
-        
-        nav ul {
+        .nav-menu {
             display: flex;
             list-style: none;
-            gap: 30px;
+            gap: 2rem;
         }
         
-        nav a {
-            color: var(--text-dark);
+        .nav-menu a {
             text-decoration: none;
-            font-weight: 600;
-            font-size: 16px;
+            color: var(--color-dark);
+            font-weight: 500;
             transition: color 0.3s;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            position: relative;
         }
         
-        nav a:hover {
-            color: var(--primary-red);
-        }
-        
-        nav a:after {
-            content: '';
-            position: absolute;
-            width: 0;
-            height: 3px;
-            background: var(--primary-red);
-            left: 0;
-            bottom: -5px;
-            transition: width 0.3s;
-        }
-        
-        nav a:hover:after {
-            width: 100%;
+        .nav-menu a:hover {
+            color: var(--color-red-pastel);
         }
         
         .cta-button {
-            background: linear-gradient(to right, var(--primary-red), var(--light-red));
-            color: var(--text-light);
-            padding: 12px 30px;
-            border: none;
-            border-radius: 4px;
-            font-weight: 700;
-            font-size: 16px;
-            cursor: pointer;
+            background: linear-gradient(135deg, var(--color-red-pastel), var(--color-red-pastel-dark));
+            color: white;
+            padding: 10px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
             transition: all 0.3s;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            box-shadow: 0 4px 10px rgba(208, 0, 0, 0.2);
+            border: none;
+            cursor: pointer;
         }
         
         .cta-button:hover {
-            background: linear-gradient(to right, var(--dark-red), var(--primary-red));
             transform: translateY(-2px);
-            box-shadow: 0 6px 15px rgba(208, 0, 0, 0.3);
+            box-shadow: 0 5px 15px rgba(255, 126, 121, 0.4);
         }
         
-        .hero {
-            background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.85)), url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
-            background-size: cover;
-            background-position: center;
-            padding: 180px 0 120px;
-            text-align: center;
+        .cta-button.outline {
+            background: transparent;
+            border: 2px solid var(--color-red-pastel);
+            color: var(--color-red-pastel);
         }
         
-        .hero h2 {
-            font-size: 48px;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: var(--text-dark);
-        }
-        
-        .hero h2 span {
-            color: var(--primary-red);
-        }
-        
-        .hero p {
-            font-size: 20px;
-            max-width: 800px;
-            margin: 0 auto 40px;
-            color: var(--text-gray);
-        }
-        
-        .location-badge {
-            display: inline-block;
-            background-color: var(--primary-red);
+        .cta-button.outline:hover {
+            background: var(--color-red-pastel);
             color: white;
-            padding: 8px 20px;
-            border-radius: 30px;
-            font-weight: 600;
-            margin-bottom: 25px;
-            font-size: 18px;
-            box-shadow: 0 4px 10px rgba(208, 0, 0, 0.2);
         }
         
-        section {
-            padding: 100px 0;
+        /* Hero Section */
+        .hero {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #fff 0%, var(--color-beige) 100%);
+        }
+        
+        .hero-container {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+        
+        .hero-content {
+            flex: 1;
+        }
+        
+        .hero h1 {
+            font-size: 2.8rem;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            color: var(--color-dark);
+        }
+        
+        .hero-subtitle {
+            font-size: 1.2rem;
+            color: var(--color-gray);
+            margin-bottom: 2rem;
+            max-width: 600px;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .hero-image {
+            flex: 1;
+        }
+        
+        .hero-image img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Sections */
+        .section {
+            padding: 80px 0;
+        }
+        
+        .section-light {
+            background-color: var(--color-light-gray);
         }
         
         .section-title {
             text-align: center;
-            margin-bottom: 60px;
-            position: relative;
+            margin-bottom: 3rem;
         }
         
         .section-title h2 {
-            font-size: 36px;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            display: inline-block;
-            color: var(--text-dark);
-        }
-        
-        .section-title h2:after {
-            content: '';
-            display: block;
-            width: 80px;
-            height: 4px;
-            background-color: var(--primary-red);
-            margin: 15px auto 0;
+            font-size: 2.5rem;
+            color: var(--color-dark);
+            margin-bottom: 1rem;
         }
         
         .section-title p {
-            color: var(--text-gray);
-            max-width: 700px;
-            margin: 20px auto 0;
-            font-size: 18px;
+            color: var(--color-gray);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
         }
         
-        .features-grid {
+        /* About Cards */
+        .about-cards {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 40px;
-            margin-top: 60px;
-        }
-        
-        .feature-card {
-            background-color: white;
-            padding: 40px 30px;
-            border-radius: 8px;
-            text-align: center;
-            transition: transform 0.3s, box-shadow 0.3s;
-            border-top: 4px solid var(--primary-red);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-        }
-        
-        .feature-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(208, 0, 0, 0.1);
-        }
-        
-        .feature-icon {
-            font-size: 48px;
-            color: var(--primary-red);
-            margin-bottom: 25px;
-        }
-        
-        .feature-card h3 {
-            font-size: 24px;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            color: var(--text-dark);
-        }
-        
-        .feature-card p {
-            color: var(--text-gray);
-        }
-        
-        .services-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             gap: 30px;
-            margin-top: 60px;
         }
         
-        .service-card {
-            background-color: white;
-            border-radius: 8px;
-            overflow: hidden;
+        .about-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
             transition: transform 0.3s;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
         }
         
-        .service-card:hover {
+        .about-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .about-card h3 {
+            color: var(--color-red-pastel-dark);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        /* Courses Grid */
+        .courses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        
+        .course-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s;
+        }
+        
+        .course-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(208, 0, 0, 0.1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
         }
         
-        .service-img {
-            height: 250px;
+        .course-image {
+            height: 200px;
             overflow: hidden;
         }
         
-        .service-img img {
+        .course-image img {
             width: 100%;
             height: 100%;
             object-fit: cover;
             transition: transform 0.5s;
         }
         
-        .service-card:hover .service-img img {
+        .course-card:hover .course-image img {
             transform: scale(1.05);
         }
         
-        .service-content {
-            padding: 30px;
+        .course-content {
+            padding: 25px;
         }
         
-        .service-content h3 {
-            font-size: 24px;
-            margin-bottom: 15px;
-            color: var(--primary-red);
+        .course-content h3 {
+            margin-bottom: 1rem;
+            color: var(--color-dark);
         }
         
-        .service-content p {
-            color: var(--text-gray);
+        .course-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 1rem 0;
         }
         
-        .team-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 40px;
-            margin-top: 60px;
+        .tag {
+            background: rgba(255, 126, 121, 0.1);
+            color: var(--color-red-pastel-dark);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
         }
         
-        .team-member {
-            text-align: center;
-            background-color: white;
-            border-radius: 8px;
-            padding: 30px;
-            border-top: 4px solid var(--primary-red);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            transition: transform 0.3s;
+        /* Philosophy Section */
+        .philosophy-content {
+            max-width: 800px;
+            margin: 0 auto;
         }
         
-        .team-member:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(208, 0, 0, 0.1);
+        .philosophy-content p {
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+            line-height: 1.8;
         }
         
-        .member-photo {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            overflow: hidden;
-            margin: 0 auto 25px;
-            border: 3px solid var(--primary-red);
+        .philosophy-image {
+            margin: 2rem 0;
         }
         
-        .member-photo img {
+        .philosophy-image img {
             width: 100%;
-            height: 100%;
-            object-fit: cover;
+            border-radius: 15px;
         }
         
-        .team-member h3 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: var(--text-dark);
-        }
-        
-        .team-member .position {
-            color: var(--primary-red);
+        .accent-text {
+            color: var(--color-red-pastel-dark);
             font-weight: 600;
-            margin-bottom: 20px;
-            font-size: 16px;
         }
         
-        .team-member p {
-            color: var(--text-gray);
-        }
-        
-        .contact-form-section {
-            background-color: var(--primary-black);
-            padding: 100px 0;
-            color: var(--text-light);
-        }
-        
-        .form-container-wrapper {
+        /* Choice Steps */
+        .choice-steps {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 60px;
-            align-items: center;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 3rem;
         }
         
-        .form-info {
-            padding-right: 40px;
+        .step {
+            text-align: center;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
         }
         
-        .form-info h3 {
-            font-size: 36px;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            color: var(--text-light);
-        }
-        
-        .form-info h3 span {
-            color: var(--primary-red);
-        }
-        
-        .form-info p {
-            font-size: 18px;
-            color: var(--text-gray);
-            margin-bottom: 30px;
-            line-height: 1.7;
-        }
-        
-        .form-benefits {
-            list-style: none;
-            margin-top: 30px;
-        }
-        
-        .form-benefits li {
-            margin-bottom: 15px;
+        .step-number {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--color-red-pastel), var(--color-red-pastel-dark));
+            color: white;
+            border-radius: 50%;
             display: flex;
             align-items: center;
-            gap: 12px;
-            color: var(--lighter-gray);
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0 auto 1.5rem;
         }
         
-        .form-benefits li i {
-            color: var(--primary-red);
-            font-size: 18px;
-        }
-        
-        .form-box {
-            background-color: white;
-            border-radius: 12px;
-            padding: 50px 40px;
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
-        }
-        
-        .form-box h4 {
-            font-size: 28px;
-            color: var(--text-dark);
-            margin-bottom: 10px;
-            text-align: center;
-        }
-        
-        .form-box p {
-            color: var(--text-gray);
-            text-align: center;
-            margin-bottom: 30px;
-            font-size: 16px;
+        /* Contact Form */
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
         }
         
         .form-group {
-            margin-bottom: 25px;
+            margin-bottom: 1.5rem;
         }
         
         .form-group label {
             display: block;
-            margin-bottom: 8px;
-            font-weight: 600;
-            color: var(--text-dark);
-            font-size: 15px;
+            margin-bottom: 0.5rem;
+            color: var(--color-dark);
+            font-weight: 500;
         }
         
-        .form-group input,
-        .form-group select {
+        .form-control {
             width: 100%;
-            padding: 16px 20px;
-            border: 2px solid #e0e0e0;
-            border-radius: 6px;
-            font-size: 16px;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
             transition: border-color 0.3s;
-            background-color: #f9f9f9;
         }
         
-        .form-group input:focus,
-        .form-group select:focus {
+        .form-control:focus {
             outline: none;
-            border-color: var(--primary-red);
-            background-color: white;
+            border-color: var(--color-red-pastel);
         }
         
-        .form-button {
-            margin-top: 10px;
+        /* Social Sharing */
+        .social-sharing {
+            margin-top: 3rem;
+            text-align: center;
+            padding: 2rem 0;
+            border-top: 1px solid #eee;
         }
         
-        .submit-button {
-            background: linear-gradient(to right, var(--primary-red), var(--light-red));
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .share-button {
             color: white;
-            border: none;
-            padding: 18px 40px;
-            font-size: 18px;
-            font-weight: 700;
-            border-radius: 6px;
-            cursor: pointer;
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
             transition: all 0.3s;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            box-shadow: 0 4px 15px rgba(208, 0, 0, 0.2);
-            width: 100%;
+            font-weight: 500;
         }
         
-        .submit-button:hover {
-            background: linear-gradient(to right, var(--dark-red), var(--primary-red));
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(208, 0, 0, 0.3);
-        }
-        
-        .form-note {
-            text-align: center;
-            margin-top: 20px;
-            color: var(--text-gray);
-            font-size: 14px;
-        }
-        
-        .success-message {
-            display: none;
-            text-align: center;
-            padding: 40px;
-            background-color: #f0fff0;
-            border-radius: 8px;
-            border-left: 5px solid #4CAF50;
-            margin-top: 30px;
-        }
-        
-        .success-message h3 {
-            color: #2E7D32;
-            margin-bottom: 15px;
-            font-size: 24px;
-        }
-        
-        .success-message p {
-            color: #555;
-            font-size: 16px;
-        }
-        
-        .success-icon {
-            font-size: 48px;
-            color: #4CAF50;
-            margin-bottom: 20px;
-        }
-        
-        .cta-section {
-            background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('https://images.unsplash.com/photo-1534367507877-0edd93bd013b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
-            background-size: cover;
-            background-position: center;
-            text-align: center;
-            padding: 120px 0;
-            border-top: 3px solid var(--primary-red);
-            border-bottom: 3px solid var(--primary-red);
-        }
-        
-        .cta-section h2 {
-            font-size: 42px;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: var(--text-dark);
-        }
-        
-        .cta-section p {
-            font-size: 20px;
-            max-width: 800px;
-            margin: 0 auto 40px;
-            color: var(--text-gray);
-        }
-        
-        .pricing-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-top: 60px;
-        }
-        
-        .pricing-card {
-            background-color: white;
-            border-radius: 8px;
-            padding: 40px 30px;
-            text-align: center;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            transition: transform 0.3s;
-            position: relative;
-        }
-        
-        .pricing-card.featured {
-            transform: scale(1.05);
-            border: 3px solid var(--primary-red);
-            box-shadow: 0 10px 25px rgba(208, 0, 0, 0.15);
-        }
-        
-        .pricing-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(208, 0, 0, 0.1);
-        }
-        
-        .pricing-card.featured:hover {
-            transform: scale(1.05) translateY(-10px);
-        }
-        
-        .pricing-badge {
-            position: absolute;
-            top: -15px;
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: var(--primary-red);
+        /* Footer */
+        .footer {
+            background: var(--color-dark);
             color: white;
-            padding: 8px 20px;
-            border-radius: 30px;
-            font-weight: 600;
-            font-size: 14px;
+            padding: 60px 0 30px;
         }
         
-        .pricing-card h3 {
-            font-size: 24px;
-            margin-bottom: 20px;
-            color: var(--text-dark);
-            text-transform: uppercase;
-        }
-        
-        .price {
-            font-size: 48px;
-            font-weight: 800;
-            color: var(--primary-red);
-            margin-bottom: 30px;
-        }
-        
-        .price span {
-            font-size: 20px;
-            color: var(--text-gray);
-        }
-        
-        .pricing-features {
-            list-style: none;
-            margin-bottom: 30px;
-            text-align: left;
-        }
-        
-        .pricing-features li {
-            margin-bottom: 15px;
-            color: var(--text-gray);
-            padding-left: 30px;
-            position: relative;
-        }
-        
-        .pricing-features li:before {
-            content: '✓';
-            position: absolute;
-            left: 0;
-            color: var(--primary-red);
-            font-weight: bold;
-        }
-        
-        footer {
-            background-color: var(--dark-gray);
-            padding: 70px 0 30px;
-        }
-        
-        .footer-container {
+        .footer-content {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 40px;
-            margin-bottom: 50px;
+            margin-bottom: 40px;
         }
         
-        .footer-column h3 {
-            font-size: 22px;
-            margin-bottom: 25px;
-            color: var(--primary-red);
-            text-transform: uppercase;
-            letter-spacing: 1px;
+        .footer-section h3 {
+            color: white;
+            margin-bottom: 1.5rem;
+            font-size: 1.3rem;
         }
         
-        .footer-column ul {
-            list-style: none;
-        }
-        
-        .footer-column ul li {
-            margin-bottom: 15px;
-        }
-        
-        .footer-column ul li a {
-            color: var(--lighter-gray);
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        
-        .footer-column ul li a:hover {
-            color: var(--primary-red);
-        }
-        
-        .contact-info {
-            color: var(--lighter-gray);
-        }
-        
-        .contact-info p {
-            margin-bottom: 15px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
+        .footer-section p {
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 1.5rem;
         }
         
         .social-links {
             display: flex;
-            gap: 20px;
-            margin-top: 25px;
+            gap: 15px;
         }
         
-        .social-links a {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
+        .social-link {
             width: 40px;
             height: 40px;
-            background-color: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
             border-radius: 50%;
-            color: var(--text-light);
-            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
             transition: all 0.3s;
         }
         
-        .social-links a:hover {
-            background-color: var(--primary-red);
-            transform: translateY(-5px);
+        .social-link:hover {
+            background: var(--color-red-pastel);
+            transform: translateY(-3px);
+        }
+        
+        .contact-info p {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 1rem;
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 0.8rem;
+        }
+        
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: var(--color-red-pastel);
         }
         
         .copyright {
             text-align: center;
             padding-top: 30px;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
-            color: var(--lighter-gray);
-            font-size: 14px;
-        }
-        
-        .share-section {
-            background-color: var(--light-gray);
-            padding: 60px 0;
-            text-align: center;
-            margin-top: 50px;
-        }
-        
-        .share-container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        
-        .share-title {
-            font-size: 32px;
-            margin-bottom: 20px;
-            color: var(--text-dark);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        
-        .share-subtitle {
-            font-size: 18px;
-            color: var(--text-gray);
-            margin-bottom: 40px;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        .share-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 25px;
-            flex-wrap: wrap;
-            margin-top: 30px;
-        }
-        
-        .share-button {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            padding: 16px 35px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 18px;
-            transition: all 0.3s;
-            min-width: 200px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        
-        .share-button.telegram {
-            background: linear-gradient(45deg, #0088cc, #1da1f2);
-            color: white;
-        }
-        
-        .share-button.instagram {
-            background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
-            color: white;
-        }
-        
-        .share-button:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-        }
-        
-        .share-icon {
-            font-size: 24px;
-            margin-right: 12px;
+            color: rgba(255, 255, 255, 0.5);
         }
         
         /* Стили для чата */
@@ -872,7 +628,7 @@
         }
         
         .chat-header {
-            background: linear-gradient(to right, var(--primary-red), var(--light-red));
+            background: linear-gradient(135deg, var(--color-red-pastel), var(--color-red-pastel-dark));
             color: white;
             padding: 15px;
             cursor: pointer;
@@ -950,7 +706,7 @@
             width: 35px;
             height: 35px;
             border-radius: 50%;
-            background: var(--primary-red);
+            background: var(--color-red-pastel);
             color: white;
             display: flex;
             align-items: center;
@@ -980,7 +736,7 @@
         }
         
         .message.user .message-text {
-            background: var(--primary-red);
+            background: var(--color-red-pastel);
             color: white;
             border-top-right-radius: 5px;
         }
@@ -994,8 +750,8 @@
         
         .quick-reply {
             background: rgba(255, 107, 107, 0.1);
-            border: 1px solid var(--primary-red);
-            color: var(--primary-red);
+            border: 1px solid var(--color-red-pastel);
+            color: var(--color-red-pastel-dark);
             padding: 6px 12px;
             border-radius: 20px;
             font-size: 0.85rem;
@@ -1004,7 +760,7 @@
         }
         
         .quick-reply:hover {
-            background: var(--primary-red);
+            background: var(--color-red-pastel);
             color: white;
         }
         
@@ -1025,13 +781,13 @@
         }
         
         .chat-input:focus {
-            border-color: var(--primary-red);
+            border-color: var(--color-red-pastel);
         }
         
         .chat-send {
             width: 45px;
             height: 45px;
-            background: var(--primary-red);
+            background: var(--color-red-pastel);
             color: white;
             border: none;
             border-radius: 50%;
@@ -1044,7 +800,7 @@
         }
         
         .chat-send:hover {
-            background: var(--dark-red);
+            background: var(--color-red-pastel-dark);
         }
         
         .chat-info {
@@ -1062,7 +818,7 @@
             right: 20px;
             width: 60px;
             height: 60px;
-            background: linear-gradient(to right, var(--primary-red), var(--light-red));
+            background: linear-gradient(135deg, var(--color-red-pastel), var(--color-red-pastel-dark));
             color: white;
             border: none;
             border-radius: 50%;
@@ -1071,14 +827,14 @@
             align-items: center;
             justify-content: center;
             font-size: 1.5rem;
-            box-shadow: 0 4px 15px rgba(208, 0, 0, 0.3);
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
             transition: transform 0.3s, box-shadow 0.3s;
             z-index: 999;
         }
         
         .chat-toggle:hover {
             transform: scale(1.1);
-            box-shadow: 0 6px 20px rgba(208, 0, 0, 0.4);
+            box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
         }
         
         .chat-badge {
@@ -1103,56 +859,8 @@
             100% { transform: scale(1); }
         }
         
-        @media (max-width: 992px) {
-            .header-container {
-                flex-direction: column;
-                gap: 20px;
-            }
-            
-            nav ul {
-                gap: 20px;
-            }
-            
-            .hero h2 {
-                font-size: 38px;
-            }
-            
-            section {
-                padding: 80px 0;
-            }
-            
-            .pricing-card.featured {
-                transform: none;
-            }
-            
-            .pricing-card.featured:hover {
-                transform: translateY(-10px);
-            }
-            
-            .form-container-wrapper {
-                grid-template-columns: 1fr;
-                gap: 40px;
-            }
-            
-            .form-info {
-                padding-right: 0;
-                text-align: center;
-            }
-            
-            .form-box {
-                padding: 40px 30px;
-            }
-            
-            .share-buttons {
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .share-button {
-                width: 100%;
-                max-width: 300px;
-            }
-            
+        /* Адаптивность чата */
+        @media (max-width: 768px) {
             .chat-widget {
                 width: 300px;
                 right: 10px;
@@ -1166,490 +874,420 @@
                 bottom: 10px;
                 right: 10px;
             }
-        }
-        
-        @media (max-width: 768px) {
-            nav ul {
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 15px;
+            
+            .hero-container {
+                flex-direction: column;
             }
             
-            .hero {
-                padding: 150px 0 80px;
+            .hero h1 {
+                font-size: 2.2rem;
             }
             
-            .hero h2 {
-                font-size: 32px;
-            }
-            
-            .hero p {
-                font-size: 18px;
-            }
-            
-            .section-title h2 {
-                font-size: 30px;
-            }
-            
-            .cta-section h2 {
-                font-size: 32px;
-            }
-            
-            .pricing-container {
+            .courses-grid {
                 grid-template-columns: 1fr;
             }
             
-            .form-info h3 {
-                font-size: 30px;
+            .nav-menu {
+                display: none;
             }
-            
-            .share-title {
-                font-size: 28px;
-            }
-            
+        }
+        
+        @media (max-width: 480px) {
             .chat-widget {
                 width: calc(100vw - 20px);
                 right: 10px;
                 bottom: 10px;
             }
+            
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            
+            .section-title h2 {
+                font-size: 1.8rem;
+            }
         }
         
-        @media (max-width: 576px) {
-            .features-grid,
-            .services-container,
-            .team-container,
-            .footer-container {
-                grid-template-columns: 1fr;
-            }
-            
-            .hero h2 {
-                font-size: 28px;
-            }
-            
-            .cta-button {
-                padding: 10px 20px;
-                font-size: 14px;
-            }
-            
-            .logo h1 {
-                font-size: 24px;
-            }
-            
-            .contact-form-section {
-                padding: 70px 0;
-            }
-            
-            .form-box {
-                padding: 30px 20px;
-            }
-            
-            .share-button {
-                padding: 14px 25px;
-                font-size: 16px;
-            }
+        /* Анимации */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* SEO-текст (скрытый) */
+        .seo-text {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 2rem;
+            border-top: 1px solid #eee;
+            padding-top: 1rem;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .text-left {
+            text-align: left;
+        }
+        
+        .text-right {
+            text-align: right;
         }
     </style>
-
-   <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-    (function(m,e,t,r,i,k,a){
-        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();
-        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=106369874', 'ym');
-
-    ym(106369874, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/106369874" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-
 </head>
 <body>
-    <header>
-        <div class="container header-container">
-            <div class="logo">
-                <i class="fas fa-dumbbell logo-icon"></i>
-                <div>
-                    <h1>Red<span>Black</span> Fitness</h1>
-                    <div class="logo-subtitle">МИНСК | ПРЕМИУМ СПОРТЗАЛ</div>
-                </div>
-            </div>
-           <nav>
-    <ul>
-        <li><a href="#about">О нас</a></li>
-        <li><a href="#services">Услуги</a></li>
-        <li><a href="#pricing">Цены</a></li>
-        <li><a href="new.html" target="_blank">Расписание</a></li> <!-- НОВАЯ СТРАНИЦА -->
-        <li><a href="#team">Тренеры</a></li>
-        <li><a href="#contact-form">Записаться</a></li>
-    </ul>
-</nav>
-            <button class="cta-button" onclick="document.getElementById('contact-form').scrollIntoView({behavior: 'smooth'})">Записаться</button>
+    <header class="header" role="banner">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span>HandyCraft</span>
+            </a>
+            <nav role="navigation" aria-label="Основное меню">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="#courses">Каталог курсов</a></li>
+                    <li><a href="#about">О школе</a></li>
+                    <li><a href="#philosophy">Философия</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="cta-button" role="button" aria-label="Получить бесплатный урок по рукоделию">Бесплатный урок</a>
         </div>
     </header>
 
-    <section class="hero">
-        <div class="container">
-            <div class="location-badge">Минск, пр-т Победителей, 21</div>
-            <h2>СОВРЕМЕННЫЙ <span>СПОРТИВНЫЙ ЗАЛ</span> В МИНСКЕ</h2>
-            <p>RedBlack Fitness в Минске — это премиальный фитнес-клуб с профессиональным оборудованием, опытными тренерами и уникальной атмосферой для достижения ваших спортивных целей. Присоединяйтесь к нам и измените свою жизнь к лучшему!</p>
-            <button class="cta-button" onclick="document.getElementById('contact-form').scrollIntoView({behavior: 'smooth'})">Записаться на тренировку</button>
+    <section class="hero" role="main">
+        <div class="container hero-container">
+            <div class="hero-content fade-in">
+                <h1>Творчество — это навык. А мы поможем его развить.</h1>
+                <p class="hero-subtitle">Онлайн-курсы по рукоделию в Минске, которые говорят на одном языке с вашими руками. Обучение вязанию, вышивке, макраме с нуля.</p>
+                <div class="hero-buttons">
+                    <a href="#courses" class="cta-button" role="button">Выбрать курс</a>
+                    <a href="#philosophy" class="cta-button outline" role="button">Узнать нашу философию</a>
+                </div>
+                <div class="seo-text" style="display: none;" aria-hidden="true">
+                    <p>Школа рукоделия HandyCraft предлагает лучшие курсы по рукоделию в Минске и Беларуси. Мы обучаем вязанию спицами для начинающих, современной вышивке гладью, созданию украшений из полимерной глины, технике амигуруми крючком, макраме и лоскутному шитью пэчворк. Все курсы доступны онлайн с обратной связью от опытных мастеров.</p>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <img src="1.jpg" alt="Руки мастера вяжут спицами - онлайн обучение рукоделию в Беларуси, курсы вязания в Минске" loading="lazy">
+            </div>
         </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="section section-light">
         <div class="container">
             <div class="section-title">
-                <h2>О нашем спортзале в Минске</h2>
-                <p>RedBlack Fitness в Минске — это не просто тренажерный зал, а целая философия здорового образа жизни. Мы создали пространство в центре Минска, где каждый может найти подходящую тренировку, профессиональную поддержку и мотивацию для достижения своих целей.</p>
+                <h2>HandyCraft — это не просто школа</h2>
             </div>
-            
-            <div class="features-grid">
-    <div class="feature-card">
-        <i class="fas fa-dumbbell feature-icon"></i>
-        <h3>Современное оборудование</h3>
-        <p>Мы предлагаем тренажеры премиум-класса от мировых производителей для 
-        <a href="#services" style="color: var(--primary-red); font-weight: 600;">силовых и кардиотренировок в Минске</a>. 
-        Более 150 единиц оборудования в нашем зале. 
-        <a href="oborud.ht" style="color: var(--primary-red); text-decoration: underline; font-weight: 600;">Записаться на пробную тренировку с оборудованием</a>.</p>
-    </div>
-    
-    <div class="feature-card">
-        <i class="fas fa-users feature-icon"></i>
-        <h3>Групповые занятия</h3>
-        <p><a href="#services" style="color: var(--primary-red); font-weight: 600;">Йога, пилатес, функциональный тренинг, кроссфит</a> и многое другое в расписании 
-        групповых программ в нашем фитнес-клубе в Минске. 
-        <a href="#pricing" style="color: var(--primary-red); text-decoration: underline;">Посмотреть расписание и цены на групповые занятия</a>.</p>
-    </div>
-    
-    <div class="feature-card">
-        <i class="fas fa-user-tie feature-icon"></i>
-        <h3>Персональный подход</h3>
-        <p>Опытные <a href="#team" style="color: var(--primary-red); font-weight: 600;">тренеры в Минске</a> разработают 
-        <a href="#contact-form" style="color: var(--primary-red); text-decoration: underline;">индивидуальную программу тренировок и питания</a> 
-        специально для вас. Персональный тренер для ваших спортивных целей. 
-        <a href="#pricing" style="color: var(--primary-red); font-weight: 600;">Узнать стоимость персональных тренировок</a>.</p>
-    </div>
-</div>
+            <p class="text-center" style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
+                Мы — сообщество творцов из Беларуси, где ценят <span class="accent-text">качественное обучение рукоделию с нуля</span>, внимание к деталям и поддержку. Наша цель — не просто дать схему, а научить вас языку ремесла, чтобы вы могли создавать авторские вещи.
+            </p>
+            <div class="about-cards">
+                <div class="about-card fade-in">
+                    <h3><i class="fas fa-comments"></i> Живые уроки</h3>
+                    <p>Обратная связь от мастеров на каждом этапе обучения. Вы не останетесь один на один с материалом. Индивидуальный подход к каждому студенту.</p>
+                </div>
+                <div class="about-card fade-in" style="animation-delay: 0.2s;">
+                    <h3><i class="fas fa-palette"></i> Проверенные материалы</h3>
+                    <p>Рекомендуем белорусских поставщиков качественных материалов. Работаем только с проверенной пряжей и тканями. Гарантия качества материалов для творчества.</p>
+                </div>
+                <div class="about-card fade-in" style="animation-delay: 0.4s;">
+                    <h3><i class="fas fa-infinity"></i> Доступ навсегда</h3>
+                    <p>Записи уроков и все обновления курсов остаются у вас навсегда. Учитесь в удобном темпе. Возможность повторного просмотра в любое время.</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="services" style="background-color: var(--light-gray);">
+    <section id="courses" class="section">
         <div class="container">
             <div class="section-title">
-                <h2>Наши услуги в Минске</h2>
-                <p>В нашем спортивном зале в Минске представлен широкий спектр услуг для всех уровней подготовки — от новичков до профессиональных спортсменов.</p>
+                <h2>С чего начнем ваше творчество?</h2>
+                <p>Курсы для начинающих и продолжающих. Выбирайте направление по душе.</p>
             </div>
-            
-            <div class="services-container">
-                <div class="service-card">
-                    <div class="service-img">
-                        <img src="1-1.jpg" alt="Тренажерный зал в Минске с современным оборудованием">
+            <div class="courses-grid">
+                <div class="course-card fade-in">
+                    <div class="course-image">
+                        <img src="вяз.jpeg" alt="Вязание спицами для начинающих - курсы по рукоделию в Минске, обучение вязанию с нуля в Беларуси" loading="lazy">
                     </div>
-                    <div class="service-content">
-                        <h3>Тренажерный зал</h3>
-                        <p>Просторная зона в центре Минска с более чем 100 единицами современного силового и кардиооборудования от ведущих мировых брендов. Зона свободных весов и функционального тренинга.</p>
-                    </div>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-img">
-                        <img src="1-2.jpg" alt="Групповая тренировка по йоге в Минске">
-                    </div>
-                    <div class="service-content">
-                        <h3>Групповые программы</h3>
-                        <p>Более 20 направлений групповых занятий в Минске: HIIT, функциональный тренинг, кроссфит, йога, пилатес, стретчинг, танцевальные классы и многое другое.</p>
+                    <div class="course-content">
+                        <h3>Вязание спицами: ваши первые узоры</h3>
+                        <p>Освойте базовые петли и свяжите свою первую пару носочков под руководством мастера. Курс включает 12 уроков по 60 минут.</p>
+                        <div class="course-tags">
+                            <span class="tag">вязание для начинающих</span>
+                            <span class="tag">минск</span>
+                            <span class="tag">белье</span>
+                            <span class="tag">спицы</span>
+                        </div>
+                        <a href="course.html" class="cta-button outline" style="width: 100%; text-align: center;">Узнать больше о курсе вязания спицами в Минске</a>
                     </div>
                 </div>
-                
-                <div class="service-card">
-                    <div class="service-img">
-                        <img src="1-3.jpg" alt="Персональная тренировка с тренером в Минске">
+                <div class="course-card fade-in" style="animation-delay: 0.1s;">
+                    <div class="course-image">
+                        <img src="2.jpeg" alt="Вышивка гладью - современные техники рукоделия, курсы вышивания в Минске для начинающих" loading="lazy" >
                     </div>
-                    <div class="service-content">
-                        <h3>Персональные тренировки</h3>
-                        <p>Индивидуальный подход с разработкой персональной программы тренировок и питания в Минске. Контроль техники, мотивация и постоянная поддержка от опытных тренеров.</p>
+                    <div class="course-content">
+                        <h3>Современная вышивка гладью</h3>
+                        <p>Изучите современные техники вышивки и создайте уникальную картину на ткани. 10 практических занятий.</p>
+                        <div class="course-tags">
+                            <span class="tag">вышивка</span>
+                            <span class="tag">для начинающих</span>
+                            <span class="tag">гладь</span>
+                            <span class="tag">игла</span>
+                        </div>
+                        <a href="course-embroidery.html" class="cta-button outline" style="width: 100%; text-align: center;">Записаться на курсы вышивки для начинающих</a>
+                    </div>
+                </div>
+                <div class="course-card fade-in" style="animation-delay: 0.2s;">
+                    <div class="course-image">
+                        <img src="3.jpg" alt="Украшения из полимерной глины - мастер-классы по рукоделию, создание бижутерии своими руками" loading="lazy">
+                    </div>
+                    <div class="course-content">
+                        <h3>Украшения из полимерной глины</h3>
+                        <p>Создайте свою первую коллекцию украшений из полимерной глины с нуля. 8 уроков по работе с материалом.</p>
+                        <div class="course-tags">
+                            <span class="tag">украшения</span>
+                            <span class="tag">глина</span>
+                            <span class="tag">бижутерия</span>
+                            <span class="tag">полимер</span>
+                        </div>
+                        <a href="course-clay.html" class="cta-button outline" style="width: 100%; text-align: center;">Мастер-классы по лепке из полимерной глины</a>
+                    </div>
+                </div>
+                <div class="course-card fade-in" style="animation-delay: 0.3s;">
+                    <div class="course-image">
+                        <img src="4.jpeg" alt="Вязаные игрушки амигуруми крючком - японское рукоделие, курсы вязания игрушек в Беларуси" loading="lazy">
+                    </div>
+                    <div class="course-content">
+                        <h3>Амигуруми крючком</h3>
+                        <p>Научитесь вязать милые игрушки крючком по японской технике амигуруми. 6 проектов разной сложности.</p>
+                        <div class="course-tags">
+                            <span class="tag">вязание крючком</span>
+                            <span class="tag">игрушки</span>
+                            <span class="tag">амигуруми</span>
+                            <span class="tag">Япония</span>
+                        </div>
+                        <a href="course-amigurumi.html" class="cta-button outline" style="width: 100%; text-align: center;">Курс амигуруми крючком для начинающих</a>
+                    </div>
+                </div>
+                <div class="course-card fade-in" style="animation-delay: 0.4s;">
+                    <div class="course-image">
+                        <img src="5.jpg" alt="Макраме для начинающих - создание текстильного декора, курсы плетения в Минске" loading="lazy">
+                    </div>
+                    <div class="course-content">
+                        <h3>Базовый курс по макраме</h3>
+                        <p>Освойте основные узлы макраме и создайте свое первое настенное панно. 7 уроков по технике плетения.</p>
+                        <div class="course-tags">
+                            <span class="tag">макраме</span>
+                            <span class="tag">декор</span>
+                            <span class="tag">плетение</span>
+                            <span class="tag">узел</span>
+                        </div>
+                        <a href="course-macrame.html" class="cta-button outline" style="width: 100%; text-align: center;">Обучение макраме онлайн в Беларуси</a>
+                    </div>
+                </div>
+                <div class="course-card fade-in" style="animation-delay: 0.5s;">
+                    <div class="course-image">
+                        <img src="6.jpg" alt="Лоскутное шитье пэчворк - традиционное белорусское рукоделие, курсы шитья в Минске" loading="lazy">
+                    </div>
+                    <div class="course-content">
+                        <h3>Лоскутное шитье (пэчворк)</h3>
+                        <p>Превратите лоскутки ткани в красивые и уютные изделия в технике пэчворк. 9 занятий по композиции и технике.</p>
+                        <div class="course-tags">
+                            <span class="tag">шитье</span>
+                            <span class="tag">пэчворк</span>
+                            <span class="tag">лоскуты</span>
+                            <span class="tag">текстиль</span>
+                        </div>
+                        <a href="course-patchwork.html" class="cta-button outline" style="width: 100%; text-align: center;">Курсы пэчворка в Минске с нуля</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="pricing">
+    <section id="philosophy" class="section section-light">
         <div class="container">
             <div class="section-title">
-                <h2>Цены на абонементы</h2>
-                <p>Выберите подходящий для вас абонемент в наш спортивный зал в Минске. Мы предлагаем гибкие условия и специальные предложения для новых клиентов.</p>
+                <h2>Философия медленного творчества</h2>
             </div>
-            
-            <div class="pricing-container">
-                <div class="pricing-card">
-                    <h3>Стандарт</h3>
-                    <div class="price">89<span>BYN/мес</span></div>
-                    <ul class="pricing-features">
-                        <li>Посещение в дневное время (до 17:00)</li>
-                        <li>Тренажерный зал</li>
-                        <li>Групповые занятия (по расписанию)</li>
-                        <li>Раздевалки и душ</li>
-                        <li>Wi-Fi на территории</li>
-                    </ul>
-                    <button class="cta-button" onclick="document.getElementById('contact-form').scrollIntoView({behavior: 'smooth'})">Выбрать абонемент "Стандарт"</button>
+            <div class="philosophy-content fade-in">
+                <p>В мире массового производства мы верим в силу <span class="accent-text">осознанного рукоделия</span>. Наши уроки — это антистресс. Это про то, чтобы замедлиться, почувствовать материал, получить удовольствие от каждого стежка или петли.</p>
+                <div class="philosophy-image">
+                    <img src="7.jpeg" alt="Натуральные материалы для творчества: шерсть, лен, дерево - экологичное рукоделие в Беларуси" loading="lazy">
                 </div>
-                
-                <div class="pricing-card featured">
-                    <div class="pricing-badge">ПОПУЛЯРНЫЙ</div>
-                    <h3>Премиум</h3>
-                    <div class="price">129<span>BYN/мес</span></div>
-                    <ul class="pricing-features">
-                        <li>Неограниченное посещение 24/7</li>
-                        <li>Тренажерный зал + все зоны</li>
-                        <li>Все групповые занятия без ограничений</li>
-                        <li>Персональная программа тренировок</li>
-                        <li>Скидка 10% на спортпит</li>
-                        <li>Фитнес-тестирование</li>
-                        <li>Бесплатная парковка</li>
-                    </ul>
-                    <button class="cta-button" onclick="document.getElementById('contact-form').scrollIntoView({behavior: 'smooth'})">Выбрать премиум абонемент в Минске</button>
-                </div>
-                
-                <div class="pricing-card">
-                    <h3>Корпоративный</h3>
-                    <div class="price">от 99<span>BYN/мес</span></div>
-                    <ul class="pricing-features">
-                        <li>Специальные условия для компаний</li>
-                        <li>Неограниченное посещение для сотрудников</li>
-                        <li>Корпоративные мероприятия</li>
-                        <li>Персональные тренеры для коллектива</li>
-                        <li>Гибкий график посещений</li>
-                        <li>Скидки от 10% для групп</li>
-                    </ul>
-                    <button class="cta-button" onclick="document.getElementById('contact-form').scrollIntoView({behavior: 'smooth'})">Корпоративный фитнес в Минске</button>
+                <p>Мы учим не скорости, а диалогу с материалом. Каждый наш курс — это путешествие, где процесс так же важен, как и результат. Здесь нет "неправильных" стежков, есть только ваш уникальный творческий путь.</p>
+                <div class="seo-text" style="font-size: 0.9rem; color: #666; margin-top: 2rem; border-top: 1px solid #eee; padding-top: 1rem;">
+                    <p>HandyCraft - это школа рукоделия в Минске, где вы можете научиться: <strong>вязанию спицами для начинающих</strong>, <strong>вышивке гладью</strong>, <strong>работе с полимерной глиной</strong>, <strong>технике амигуруми</strong>, <strong>макраме</strong> и <strong>пэчворку</strong>. Все курсы доступны в онлайн формате с поддержкой преподавателей.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="team" style="background-color: var(--light-gray);">
+    <section id="choice" class="section">
         <div class="container">
             <div class="section-title">
-                <h2>Наши тренеры в Минске</h2>
-                <p>Профессиональная команда RedBlack Fitness в Минске — это опытные специалисты с международной сертификацией, готовые помочь вам достичь любых спортивных целей.</p>
+                <h2>Запутались в выборе?</h2>
+                <p>Просто следуйте этим шагам для выбора идеального курса рукоделия</p>
             </div>
-            
-            <div class="team-container">
-                <div class="team-member">
-                    <div class="member-photo">
-                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Алексей Иванов - мастер-тренер по силовым тренировкам в Минске">
-                    </div>
-                    <h3>Алексей Иванов</h3>
-                    <div class="position">Мастер-тренер, силовые тренировки</div>
-                    <p>Опыт работы 10 лет. Специализация: бодибилдинг, пауэрлифтинг, коррекция фигуры. Сертифицированный тренер по фитнесу в Минске.</p>
+            <div class="choice-steps">
+                <div class="step fade-in">
+                    <div class="step-number">1</div>
+                    <h3>Оцените уровень</h3>
+                    <p>Рядом с каждым курсом есть маркер "Начинающим" или "Продолжающим". Выбирайте по своему опыту. Для новичков рекомендуем курсы с пометкой "для начинающих".</p>
                 </div>
-                
-                <div class="team-member">
-                    <div class="member-photo">
-                        <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Мария Смирнова - тренер по функциональному тренингу в Минске">
-                    </div>
-                    <h3>Мария Смирнова</h3>
-                    <div class="position">Тренер по функциональному тренингу</div>
-                    <p>Опыт работы 7 лет. Специализация: функциональный тренинг, кроссфит, снижение веса. Лучший тренер Минска 2022.</p>
+                <div class="step fade-in" style="animation-delay: 0.2s;">
+                    <div class="step-number">2</div>
+                    <h3>Подумайте о результате</h3>
+                    <p>Что хотите создать — носить, дарить, украсить дом? Каждый курс ведет к конкретному изделию: от вязаных носков до вышитой картины.</p>
                 </div>
-                
-                <div class="team-member">
-                    <div class="member-photo">
-                        <img src="https://images.unsplash.com/photo-1548690312-e3b507d8c110?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Дмитрий Петров - эксперт по восстановлению в Минске">
-                    </div>
-                    <h3>Дмитрий Петров</h3>
-                    <div class="position">Эксперт по восстановлению</div>
-                    <p>Опыт работы 8 лет. Специализация: йога, пилатес, стретчинг, мобильность суставов. Мастер спорта по спортивной гимнастике.</p>
+                <div class="step fade-in" style="animation-delay: 0.4s;">
+                    <div class="step-number">3</div>
+                    <h3>Посмотрите бесплатный урок</h3>
+                    <p>В каждом курсе есть открытый фрагмент. Это поможет понять стиль преподавания и оценить качество материалов.</p>
+                </div>
+                <div class="step fade-in" style="animation-delay: 0.6s;">
+                    <div class="step-number">4</div>
+                    <h3>Спросите нас</h3>
+                    <p>Звоните или пишите — мы поможем выбрать курс, который идеально подойдет именно вам. Консультация бесплатна.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="cta-section">
+    <section id="contact" class="section section-light">
         <div class="container">
-            <h2>ПЕРВАЯ ТРЕНИРОВКА В МИНСКЕ БЕСПЛАТНО!</h2>
-            <p>Приходите на первую бесплатную тренировку в наш спортивный зал в Минске и убедитесь, что RedBlack Fitness — это именно то место, где вы достигнете своих спортивных целей.</p>
-            <button class="cta-button" onclick="document.getElementById('contact-form').scrollIntoView({behavior: 'smooth'})">Записаться на бесплатную тренировку в Минске</button>
-        </div>
-    </section>
-
-    <section class="share-section">
-        <div class="container">
-            <div class="share-container">
-                <h2 class="share-title">Понравился наш фитнес-клуб?</h2>
-                <p class="share-subtitle">Расскажите друзьям о RedBlack Fitness в Минске! Поделитесь страницей в социальных сетях и помогите другим найти лучший спортзал в городе.</p>
-                
-                <div class="share-buttons">
-                    <a href="https://t.me/share/url?url=https://redblackfitness.by&text=🏋️‍♂️ RedBlack Fitness Минск — современный спортивный зал в центре Минска!%0A%0A✅ Профессиональное оборудование%0A✅ Опытные тренеры%0A✅ Групповые занятия%0A✅ Первая тренировка БЕСПЛАТНО%0A%0AЗаписывайтесь на бесплатную тренировку! 👉 https://redblackfitness.by%0A%0A#фитнесминск #тренажерныйзалминск #спортзалминск #красныйчерныйфитнес" 
-                       target="_blank" 
-                       class="share-button telegram"
-                       aria-label="Поделиться в Telegram">
-                        <i class="fab fa-telegram share-icon"></i> Поделиться в Telegram
-                    </a>
-                    
-                    <a href="javascript:void(0);" 
-                       onclick="shareToInstagram()"
-                       class="share-button instagram"
-                       aria-label="Поделиться в Instagram">
-                        <i class="fab fa-instagram share-icon"></i> Поделиться в Instagram
-                    </a>
-                </div>
-                
-                <p style="margin-top: 30px; font-size: 16px; color: var(--text-gray);">
-                    Ваша рекомендация поможет другим выбрать лучший фитнес-клуб в Минске! 🙌
+            <div class="section-title">
+                <h2>Готовы начать?</h2>
+                <p>Оставьте заявку на бесплатный пробный урок по рукоделию</p>
+            </div>
+            <div class="contact-form fade-in">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Имя</label>
+                        <input type="text" id="name" class="form-control" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Номер телефона</label>
+                        <input type="tel" id="phone" class="form-control" placeholder="+375 (__) ___ __ __" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="Ваш email" required>
+                    </div>
+                    <button type="submit" class="cta-button" style="width: 100%;">Получить пробный урок</button>
+                </form>
+                <p style="text-align: center; margin-top: 1rem; font-size: 0.9rem; color: var(--color-gray);">
+                    Ваши данные в безопасности. Мы перезвоним вам в удобное время.
                 </p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact-form" class="contact-form-section">
-        <div class="container">
-            <div class="form-container-wrapper">
-                <div class="form-info">
-                    <h3>Запишитесь на <span>бесплатную</span> первую тренировку</h3>
-                    <p>Оставьте заявку прямо сейчас и наш менеджер свяжется с вами в течение 30 минут. Мы подберем для вас оптимальный график тренировок и программу, соответствующую вашим целям.</p>
-                    
-                    <ul class="form-benefits">
-                        <li><i class="fas fa-check-circle"></i> Первая тренировка бесплатно</li>
-                        <li><i class="fas fa-check-circle"></i> Консультация профессионального тренера</li>
-                        <li><i class="fas fa-check-circle"></i> Подбор индивидуальной программы</li>
-                        <li><i class="fas fa-check-circle"></i> Экскурсия по залу и знакомство с оборудованием</li>
-                        <li><i class="fas fa-check-circle"></i> Скидка 15% на первый абонемент</li>
-                    </ul>
-                </div>
                 
-                <div class="form-box">
-                    <h4>Запись в спортзал</h4>
-                    <p>Заполните форму и мы перезвоним вам</p>
+                <div class="social-sharing" style="margin-top: 3rem; text-align: center; padding: 2rem 0; border-top: 1px solid #eee;">
+                    <h3 style="margin-bottom: 1rem; color: var(--color-red-pastel-dark);">Понравилась школа рукоделия? Поделитесь с друзьями!</h3>
+                    <p style="margin-bottom: 1.5rem; color: #666;">Расскажите о курсах рукоделия в ваших социальных сетях.</p>
                     
-                    <form id="fitness-form">
-                        <div class="form-group">
-                            <label for="name">Ваше имя *</label>
-                            <input type="text" id="name" name="name" required placeholder="Введите ваше имя">
-                        </div>
+                    <div class="share-buttons" style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                        <a href="https://vk.com/share.php?url=https://handycraft.by&title=HandyCraft — Онлайн-школа рукоделия в Беларуси&description=Курсы вязания, вышивки, макраме в Минске. Обучение с нуля с обратной связью от мастеров. Белорусские материалы. Бесплатный пробный урок.&image=https://handycraft.by/images/1.jpg"
+                           target="_blank" 
+                           class="share-button" 
+                           style="background-color: #4C75A3; color: white; padding: 0.75rem 1.5rem; border-radius: 50px; text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; transition: all 0.3s; font-weight: 500;"
+                           aria-label="Поделиться во ВКонтакте"
+                           onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 5px 15px rgba(76, 117, 163, 0.4)'" 
+                           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+                            <i class="fab fa-vk" style="font-size: 1.2rem;"></i> Поделиться ВКонтакте
+                        </a>
                         
-                        <div class="form-group">
-                            <label for="phone">Номер телефона *</label>
-                            <input type="tel" id="phone" name="phone" required placeholder="+375 (__) ___ __ __">
-                        </div>
+                        <a href="https://t.me/share/url?url=https://handycraft.by&text=🎨 HandyCraft — Онлайн-школа рукоделия в Беларуси!%0A%0A✨ Курсы вязания, вышивки, макраме в Минске%0A✨ Обучение с нуля с обратной связью%0A✨ Белорусские материалы%0A✨ Бесплатный пробный урок%0A%0A👉 https://handycraft.by"
+                           target="_blank" 
+                           class="share-button" 
+                           style="background-color: #0088cc; color: white; padding: 0.75rem 1.5rem; border-radius: 50px; text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; transition: all 0.3s; font-weight: 500;"
+                           aria-label="Поделиться в Telegram"
+                           onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 5px 15px rgba(0, 136, 204, 0.4)'" 
+                           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+                            <i class="fab fa-telegram" style="font-size: 1.2rem;"></i> Поделиться в Telegram
+                        </a>
                         
-                        <div class="form-group">
-                            <label for="goal">Цель тренировок</label>
-                            <select id="goal" name="goal">
-                                <option value="">Выберите цель</option>
-                                <option value="weight_loss">Похудение</option>
-                                <option value="muscle_gain">Набор мышечной массы</option>
-                                <option value="fitness">Поддержание формы</option>
-                                <option value="rehabilitation">Реабилитация после травмы</option>
-                                <option value="stress">Снятие стресса</option>
-                                <option value="health">Укрепление здоровья</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="service">Интересующая услуга</label>
-                            <select id="service" name="service">
-                                <option value="">Выберите услугу</option>
-                                <option value="gym">Тренажерный зал</option>
-                                <option value="group">Групповые занятия</option>
-                                <option value="personal">Персональные тренировки</option>
-                                <option value="subscription">Абонемент</option>
-                                <option value="consultation">Консультация тренера</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-button">
-                            <button type="submit" class="submit-button">Записаться на бесплатную тренировку</button>
-                        </div>
-                        
-                        <div class="form-note">
-                            <p>Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности и даете согласие на обработку персональных данных.</p>
-                        </div>
-                    </form>
-                    
-                    <div id="success-message" class="success-message">
-                        <div class="success-icon">
-                            <i class="fas fa-check-circle"></i>
-                        </div>
-                        <h3>Заявка успешно отправлена!</h3>
-                        <p>Спасибо за вашу заявку. Наш менеджер свяжется с вами в течение 30 минут для уточнения деталей и записи на первую бесплатную тренировку.</p>
-                        <p style="margin-top: 15px; font-weight: 600;">Ждем вас в RedBlack Fitness в Минске!</p>
+                        <a type="button"
+                           class="share-button" 
+                           style="background: linear-gradient(45deg, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80); color: white; padding: 0.75rem 1.5rem; border-radius: 50px; text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; transition: all 0.3s; font-weight: 500; border: none; cursor: pointer;"
+                           aria-label="Поделиться в Instagram"
+                           onclick="shareToInstagram()"
+                           onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 5px 15px rgba(225, 48, 108, 0.4)'" 
+                           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+                            <i class="fab fa-instagram" style="font-size: 1.2rem;"></i> Поделиться в Instagram
+                        </a>
                     </div>
+                    
+                    <p style="margin-top: 1rem; font-size: 0.9rem; color: #888;">
+                        Помогите другим найти полезные курсы по рукоделию! ❤️
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer id="contact">
+    <footer class="footer" role="contentinfo">
         <div class="container">
-            <div class="footer-container">
-                <div class="footer-column">
-                    <h3>RedBlack Fitness Минск</h3>
-                    <p style="color: var(--lighter-gray); margin-bottom: 20px;">Премиальный спортивный зал в центре Минска для тех, кто стремится к совершенству. Лучший тренажерный зал в Минске 2023.</p>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>HandyCraft</h3>
+                    <p>Онлайн-школа рукоделия в Беларуси. Учим создавать красоту своими руками с 2020 года. Курсы вязания, вышивки, макраме, пэчворка и других видов рукоделия.</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-vk"></i></a>
-                        <a href="#"><i class="fab fa-telegram"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="https://instagram.com/handycraft" class="social-link" aria-label="Instagram школы HandyCraft" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://t.me/handycraft" class="social-link" aria-label="Telegram канал школы рукоделия" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="https://vk.com/handycraft" class="social-link" aria-label="Группа ВКонтакте школы рукоделия" target="_blank"><i class="fab fa-vk"></i></a>
                     </div>
                 </div>
-                
-                <div class="footer-column">
-                    <h3>Контакты в Минске</h3>
+                <div class="footer-section">
+                    <h3>Контакты</h3>
                     <div class="contact-info">
-                        <p><i class="fas fa-map-marker-alt"></i> Минск, пр-т Победителей, 21</p>
-                        <p><i class="fas fa-phone"></i> +375 (29) 123-45-67</p>
-                        <p><i class="fas fa-envelope"></i> minsk@redblackfitness.by</p>
-                        <p><i class="fas fa-clock"></i> Пн-Вс: 06:00 - 00:00</p>
+                        <p><i class="fas fa-map-marker-alt"></i> <span>г. Минск, ул. Творческая, 17</span></p>
+                        <p><i class="fas fa-phone"></i> <span>+375 (29) 123-45-67</span></p>
+                        <p><i class="fas fa-envelope"></i> <span>hello@handycraft.by</span></p>
+                        <meta itemprop="addressLocality" content="Минск">
+                        <meta itemprop="addressCountry" content="BY">
                     </div>
                 </div>
-                
-                <div class="footer-column">
-                    <h3>Навигация</h3>
-                    <ul>
-                        <li><a href="#about">О нашем спортзале в Минске</a></li>
-                        <li><a href="#services">Услуги фитнес-клуба в Минске</a></li>
-                        <li><a href="#pricing">Цены на абонементы в Минске</a></li>
-                        <li><a href="#team">Тренеры по фитнесу в Минске</a></li>
-                        <li><a href="#contact-form">Записаться на тренировку в Минске</a></li>
-                        <li><a href="#">Расписание групповых занятий</a></li>
-                        <li><a href="#">Персональный тренер в Минске</a></li>
-                        <li><a href="#">Тренажерный зал для начинающих</a></li>
-                        <li><a href="#">Групповые тренировки в Минске</a></li>
+                <div class="footer-section">
+                    <h3>Быстрые ссылки</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="#courses">Каталог курсов рукоделия</a></li>
+                        <li><a href="#about">О школе HandyCraft</a></li>
+                        <li><a href="#philosophy">Философия творчества</a></li>
+                        <li><a href="#contact">Контакты и запись</a></li>
+                        <li><a href="course.html">Курс вязания спицами для начинающих в Минске</a></li>
+                        <li><a href="course-embroidery.html">Обучение вышивке гладью онлайн</a></li>
+                        <li><a href="course-macrame.html">Мастер-классы по макраме в Беларуси</a></li>
+                        <li><a href="#contact">Записаться на бесплатный урок по рукоделию</a></li>
                     </ul>
                 </div>
-                
-                <div class="footer-column">
-                    <h3>Часы работы</h3>
-                    <div class="contact-info">
-                        <p><strong>Тренажерный зал:</strong></p>
-                        <p>Понедельник - Воскресенье: 06:00 - 00:00</p>
-                        <p><strong>Групповые занятия:</strong></p>
-                        <p>Пн-Пт: 07:00 - 22:00</p>
-                        <p>Сб-Вс: 09:00 - 20:00</p>
-                        <p><strong>Персональные тренировки:</strong></p>
-                        <p>По записи в любое время</p>
-                    </div>
-                </div>
             </div>
-            
             <div class="copyright">
-                <p>&copy; 2023 RedBlack Fitness Минск. Все права защищены. <a href="#" style="color: var(--light-red); text-decoration: none;">Политика конфиденциальности</a></p>
+                <p>&copy; 2023 HandyCraft. Онлайн-школа рукоделия. Все права защищены.</p>
+                <div style="display: none;" aria-hidden="true">
+                    <p>Курсы рукоделия в Минске, онлайн обучение вязанию, вышивка для начинающих, школа макраме Беларусь, пэчворк курсы, амигуруми обучение, полимерная глина мастер-классы, творческие курсы онлайн, рукоделие с нуля, белорусские мастера рукоделия.</p>
+                </div>
             </div>
         </div>
     </footer>
 
     <!-- Виджет чата -->
-    <div id="chat-widget" class="chat-widget" aria-label="Чат поддержки RedBlack Fitness">
+    <div id="chat-widget" class="chat-widget" aria-label="Чат поддержки HandyCraft">
         <div class="chat-header" onclick="toggleChat()">
             <div class="chat-title">
-                <i class="fas fa-dumbbell"></i>
-                <span>Помощь по клубу</span>
+                <i class="fas fa-comments"></i>
+                <span>Помощь по курсам</span>
             </div>
             <div class="chat-actions">
+                <button class="chat-minimize" aria-label="Свернуть чат">
+                    <i class="fas fa-minus"></i>
+                </button>
                 <button class="chat-close" onclick="closeChat(event)" aria-label="Закрыть чат">
                     <i class="fas fa-times"></i>
                 </button>
@@ -1663,12 +1301,12 @@
                         <i class="fas fa-robot"></i>
                     </div>
                     <div class="message-content">
-                        <div class="message-text">Привет! 💪 Я помогу с информацией о фитнес-клубе RedBlack Fitness в Минске. Выберите тему:</div>
+                        <div class="message-text">Привет! 👋 Я помогу выбрать курс по рукоделию. Задайте вопрос или выберите одну из тем:</div>
                         <div class="quick-replies">
-                            <button class="quick-reply" onclick="sendQuickReply('Часы работы и расписание')">Расписание</button>
-                            <button class="quick-reply" onclick="sendQuickReply('Цены на абонементы')">Цены</button>
-                            <button class="quick-reply" onclick="sendQuickReply('Как записаться на тренировку?')">Запись</button>
-                            <button class="quick-reply" onclick="sendQuickReply('Есть ли бесплатная первая тренировка?')">Пробная</button>
+                            <button class="quick-reply" onclick="sendQuickReply('Как выбрать курс для начинающих?')">Как выбрать курс?</button>
+                            <button class="quick-reply" onclick="sendQuickReply('Сколько стоят курсы?')">Стоимость курсов</button>
+                            <button class="quick-reply" onclick="sendQuickReply('Как получить бесплатный урок?')">Бесплатный урок</button>
+                            <button class="quick-reply" onclick="sendQuickReply('Какие нужны материалы?')">Необходимые материалы</button>
                         </div>
                     </div>
                 </div>
@@ -1698,127 +1336,94 @@
     </div>
 
     <script>
-        document.querySelectorAll('nav a, .cta-button').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                if(this.getAttribute('href') && this.getAttribute('href').startsWith('#')) {
-                    e.preventDefault();
-                    const targetId = this.getAttribute('href');
-                    document.querySelector(targetId).scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-        
-        window.addEventListener('scroll', function() {
-            const header = document.querySelector('header');
-            if (window.scrollY > 100) {
-                header.style.backgroundColor = 'rgba(255, 255, 255, 0.99)';
-                header.style.padding = '10px 0';
-                header.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.1)';
-            } else {
-                header.style.backgroundColor = 'rgba(255, 255, 255, 0.97)';
-                header.style.padding = '15px 0';
-                header.style.boxShadow = '0 2px 15px rgba(0, 0, 0, 0.1)';
-            }
-        });
-        
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-        
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, observerOptions);
-        
-        document.querySelectorAll('.feature-card, .service-card, .team-member, .pricing-card').forEach(el => {
-            el.style.opacity = '0';
-            el.style.transform = 'translateY(20px)';
-            el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-            observer.observe(el);
-        });
-        
-        document.getElementById('fitness-form').addEventListener('submit', function(e) {
-            e.preventDefault();
+        document.addEventListener('DOMContentLoaded', function() {
+            const fadeElements = document.querySelectorAll('.fade-in');
             
-            const formData = {
-                name: document.getElementById('name').value,
-                phone: document.getElementById('phone').value,
-                goal: document.getElementById('goal').value,
-                service: document.getElementById('service').value
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+            
+            fadeElements.forEach(el => {
+                observer.observe(el);
+            });
+            
+            document.getElementById('contactForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Спасибо за заявку! Мы свяжемся с вами в ближайшее время и отправим бесплатный урок по рукоделию.');
+                this.reset();
+            });
+            
+            // Функция для шаринга в Instagram
+            window.shareToInstagram = function() {
+                const text = "🎨 HandyCraft — Онлайн-школа рукоделия в Беларуси!\n\n✨ Курсы вязания, вышивки, макраме в Минске\n✨ Обучение с нуля с обратной связью\n✨ Белорусские материалы\n✨ Бесплатный пробный урок\n\n👉 https://handycraft.by\n\n#рукоделие #вязание #вышивка #минск #беларусь #handycraft #творчество";
+                
+                const textarea = document.createElement('textarea');
+                textarea.value = text;
+                document.body.appendChild(textarea);
+                textarea.select();
+                
+                try {
+                    const successful = document.execCommand('copy');
+                    if (successful) {
+                        alert('Текст скопирован! 📋\n\nТеперь откройте Instagram Stories или пост и вставьте текст.\n\nНе забудьте добавить фото с нашего сайта! 📸');
+                        window.open('https://www.instagram.com/', '_blank');
+                    } else {
+                        alert('Не удалось скопировать текст. Пожалуйста, скопируйте вручную:\n\n' + text);
+                    }
+                } catch (err) {
+                    alert('Ошибка копирования. Пожалуйста, скопируйте текст вручную:\n\n' + text);
+                }
+                
+                document.body.removeChild(textarea);
             };
             
-            if (!formData.name || !formData.phone) {
-                alert('Пожалуйста, заполните обязательные поля: Имя и Телефон');
-                return;
-            }
+            const coursesData = {
+                "@context": "https://schema.org",
+                "@type": "ItemList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Course",
+                            "name": "Вязание спицами: ваши первые узоры",
+                            "description": "Курс вязания спицами для начинающих в Минске",
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "HandyCraft"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Course",
+                            "name": "Современная вышивка гладью",
+                            "description": "Курс вышивки для начинающих в Беларуси",
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "HandyCraft"
+                            }
+                        }
+                    }
+                ]
+            };
             
-            console.log('Данные формы отправлены:', formData);
+            const script = document.createElement('script');
+            script.type = 'application/ld+json';
+            script.text = JSON.stringify(coursesData);
+            document.head.appendChild(script);
             
-            document.getElementById('fitness-form').style.display = 'none';
-            document.getElementById('success-message').style.display = 'block';
-            
-            setTimeout(() => {
-                document.getElementById('fitness-form').reset();
-            }, 100);
+            // Инициализация чата
+            initializeChat();
         });
-        
-        document.getElementById('phone').addEventListener('input', function(e) {
-            let value = e.target.value.replace(/\D/g, '');
-            
-            if (value.length > 0) {
-                if (!value.startsWith('375')) {
-                    value = '375' + value;
-                }
-                
-                let formatted = '+375 (';
-                
-                if (value.length > 3) {
-                    formatted += value.substring(3, 5);
-                }
-                if (value.length > 5) {
-                    formatted += ') ' + value.substring(5, 8);
-                }
-                if (value.length > 8) {
-                    formatted += '-' + value.substring(8, 10);
-                }
-                if (value.length > 10) {
-                    formatted += '-' + value.substring(10, 12);
-                }
-                
-                e.target.value = formatted;
-            }
-        });
-        
-        window.shareToInstagram = function() {
-            const text = "🏋️‍♂️ RedBlack Fitness Минск — современный спортивный зал в центре Минска!\n\n✅ Профессиональное оборудование\n✅ Опытные тренеры\n✅ Групповые занятия\n✅ Первая тренировка БЕСПЛАТНО\n\nЗаписывайтесь на бесплатную тренировку! 👉 https://redblackfitness.by\n\n#фитнесминск #тренажерныйзалминск #спортзалминск #красныйчерныйфитнес #фитнес #зож #тренировкаминск";
-            
-            const textarea = document.createElement('textarea');
-            textarea.value = text;
-            document.body.appendChild(textarea);
-            textarea.select();
-            
-            try {
-                const successful = document.execCommand('copy');
-                if (successful) {
-                    alert('📋 Текст скопирован в буфер обмена!\n\n📸 Теперь откройте Instagram:\n1. Создайте новый пост или Stories\n2. Вставьте скопированный текст\n3. Добавьте фото с нашего сайта\n4. Отметьте нас @redblackfitness_minsk\n5. Опубликуйте!\n\nСпасибо за репост! ❤️');
-                    
-                    window.open('https://www.instagram.com/', '_blank');
-                } else {
-                    alert('Не удалось скопировать текст автоматически. Пожалуйста, скопируйте вручную:\n\n' + text);
-                }
-            } catch (err) {
-                alert('Ошибка копирования. Пожалуйста, скопируйте текст вручную:\n\n' + text);
-            }
-            
-            document.body.removeChild(textarea);
-        };
         
         // Функции для чата
         let chatOpen = false;
@@ -1937,32 +1542,22 @@
         function getBotResponse(message) {
             const lowerMessage = message.toLowerCase();
             
-            if (lowerMessage.includes('расписание') || lowerMessage.includes('часы') || lowerMessage.includes('время')) {
-                return "🕒 Часы работы RedBlack Fitness в Минске:\n\n• Тренажерный зал: 06:00 - 00:00 (ежедневно)\n• Групповые занятия: Пн-Пт 07:00-22:00, Сб-Вс 09:00-20:00\n• Персональные тренировки: по записи в любое время\n\nРасписание групповых занятий обновляется еженедельно.";
-            } else if (lowerMessage.includes('цена') || lowerMessage.includes('стоимость') || lowerMessage.includes('абонемент')) {
-                return "💰 Цены на абонементы в Минске:\n\n• Стандарт: 89 BYN/мес (до 17:00)\n• Премиум: 129 BYN/мес (безлимит 24/7)\n• Корпоративный: от 99 BYN/мес\n\nПервая тренировка БЕСПЛАТНО!\nСкидка 15% на первый абонемент.";
-            } else if (lowerMessage.includes('записаться') || lowerMessage.includes('запись') || lowerMessage.includes('тренировка')) {
-                return "📝 Записаться можно:\n\n1. Через форму на сайте (ниже)\n2. По телефону: +375 (29) 123-45-67\n3. Прийти в зал по адресу: пр-т Победителей, 21\n\nПервая тренировка БЕСПЛАТНАЯ для новых клиентов!";
-            } else if (lowerMessage.includes('бесплатн') || lowerMessage.includes('пробн')) {
-                return "🎁 Да, первая тренировка в нашем зале в Минске БЕСПЛАТНАЯ!\n\nЧто включено:\n• Экскурсия по залу\n• Консультация тренера\n• Пробная тренировка\n• Подбор программы\n\nЗапишитесь через форму на сайте или по телефону!";
-            } else if (lowerMessage.includes('тренер') || lowerMessage.includes('тренеры')) {
-                return "👥 Наши тренеры в Минске:\n\n• Алексей Иванов - силовые тренировки (10 лет опыта)\n• Мария Смирнова - функциональный тренинг (7 лет)\n• Дмитрий Петров - йога и восстановление (8 лет)\n\nВсе тренеры сертифицированы и имеют международные дипломы.";
-            } else if (lowerMessage.includes('оборудование') || lowerMessage.includes('тренажер')) {
-                return "💪 В нашем зале в Минске:\n\n• 150+ единиц современного оборудования\n• Силовые тренажеры (TechnoGym, Life Fitness)\n• Кардиозона (беговые дорожки, велотренажеры)\n• Зона свободных весов\n• Функциональный тренинг\n• Профессиональное оборудование для всех видов тренировок";
-            } else if (lowerMessage.includes('адрес') || lowerMessage.includes('где') || lowerMessage.includes('находится')) {
-                return "📍 Мы находимся в центре Минска:\n\nАдрес: пр-т Победителей, 21\n\nРядом метро, бесплатная парковка для клиентов.\nРаботаем ежедневно с 6:00 до 00:00.";
+            if (lowerMessage.includes('курс') || lowerMessage.includes('выбрать')) {
+                return "Для выбора курса рекомендую:\n1. Начинающим: 'Вязание спицами' или 'Вышивка гладью'\n2. Для дома: 'Макраме' или 'Пэчворк'\n3. Для подарков: 'Полимерная глина' или 'Амигуруми'\n\nХотите, подберу курс конкретно под ваши цели?";
+            } else if (lowerMessage.includes('стоимость') || lowerMessage.includes('цена') || lowerMessage.includes('сколько')) {
+                return "Стоимость курсов от 49 до 149 BYN. Цена зависит от продолжительности и сложности курса. У нас часто проходят акции и скидки для новых учеников!";
+            } else if (lowerMessage.includes('бесплатный') || lowerMessage.includes('пробный')) {
+                return "Заполните форму на сайте в разделе 'Контакты', и мы отправим вам бесплатный урок по выбранному направлению. Или можете написать ваше имя и телефон здесь, и мы свяжемся с вами!";
+            } else if (lowerMessage.includes('материал') || lowerMessage.includes('пряж') || lowerMessage.includes('нитк')) {
+                return "Для каждого курса есть список материалов. Мы рекомендуем белорусских поставщиков качественных материалов. После записи вы получите подробный список с рекомендациями!";
+            } else if (lowerMessage.includes('онлайн') || lowerMessage.includes('занятия')) {
+                return "Все курсы проходят онлайн в удобное для вас время. Доступ к урокам остается навсегда. Есть обратная связь от преподавателей и общий чат с одногруппниками!";
+            } else if (lowerMessage.includes('оплат') || lowerMessage.includes('купить')) {
+                return "Оплатить курс можно картой, через ЕРИП или в рассрочку. После оплаты вы сразу получаете доступ к первым урокам!";
             } else {
-                return "Спасибо за вопрос! Для получения подробной информации:\n\n1. Заполните форму записи на сайте\n2. Позвоните нам: +375 (29) 123-45-67\n3. Приходите на бесплатную пробную тренировку!\n\nМы поможем вам достичь ваших спортивных целей! 💪";
+                return "Спасибо за вопрос! Для более подробной информации рекомендую:\n1. Посмотреть описания курсов\n2. Заполнить форму на бесплатный урок\n3. Позвонить нам: +375 (29) 123-45-67\n\nЧем еще могу помочь?";
             }
         }
-        
-        // Инициализация чата при загрузке
-        document.addEventListener('DOMContentLoaded', function() {
-            initializeChat();
-        });
     </script>
 </body>
 </html>
-
-
-
